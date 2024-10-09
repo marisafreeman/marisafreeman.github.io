@@ -1,0 +1,59 @@
+ Linux中一切静止的都是________________，一切活动的都是________________;
+CentOS中获取主机名的命令是：_______________，获取CPU信息的2个命令是：________________，_______________，获取内存信息的命令是：____________________;
+获取内核版本号信息的命令是______________________，获取已经加载的内核模块信息的命令是___________________________。
+Linux操作系统的shell是什么？有哪些常用的shell？
+Linux中获取帮助信息的2种基本方法是什么？
+
+文件
+进程
+hostname
+lscpu
+cat /proc/cpuinfo
+free
+uname -r
+lsmod
+
+Shell是Linux操作系统中的命令解释器和用户界面，用户通过Shell输入命令与操作系统进行交互。常用的shell有sh,bash,csh,ksh,zsh
+使用man命令可以查看命令的手册页,像man ls 可以查看ls命令的详细使用说明
+使用--help参数,--help选项，可以快速查看命令的基本用法，像ls --help
+
+<p>请按以下步骤（每一步都要有对应的截图）：</p>
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "common.h"
+
+volatile int counter = 0;
+int loops;
+
+void *worker(void *arg) {
+    int i;
+    for (i = 0; i < loops; i++) {
+        counter++;
+    }
+    return NULL;
+}
+
+int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        fprintf(stderr, "usage: threads <value>\n");
+        exit(1);
+    }
+    loops = atoi(argv[1]);
+    pthread_t p1, p2;
+    printf("Initial value : %d\n", counter);
+
+    pthread_create(&p1, NULL, worker, NULL);
+    pthread_create(&p2, NULL, worker, NULL);
+    pthread_join(p1, NULL);
+    pthread_join(p2, NULL);
+
+    printf("Final value    : %d\n", counter);
+    return 0;
+}
+
+
+H4sIAAAAAAAA/+JoOvllnrMEo1cQB5OQH8fLh1sPGEgweslxsAlJcRw59/6LgQRjEkMG4yJGhlWMTFIMhxgZZjExwEXEpBisODjesosyMCg4WnFwvAOxPJwgqrzkOBiFpDj6e2YcxWqKlx0Hq5AVR/ei3g8QO3WEpDga/zXcNMRrJ0L/eSYOFqFTTBzbnt05BzLBiINZSI/j445fJ5Htg7jxG8hlR5ysODh+gt14CGqGEYe8kB7Hmc+rXmPq+cIu+u///INWHBxf2UVnzpS0g+oJ4uAW8uPYAtHjJcehC3J364rn+N0NN/MPxMxuDlFj48128LASFpLi6Fqy5zxWU7zkOETwyhtxcAjpccz9dfEnpj8+g3y8ABQ/n5DjB9OUVYwMgAAAAP//azGicRECAAA=
+
+
