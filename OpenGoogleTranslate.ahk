@@ -1,5 +1,5 @@
-; 监听 End 键
-End::
+; 监听 PgUp 键
+PgUp::
 {
     ; 打开默认浏览器并跳转到 Google 图片翻译页面
     Run "https://translate.google.com/?sl=auto&tl=zh-CN&op=images"
