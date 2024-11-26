@@ -1,4 +1,4 @@
-# Project Name
+# marisafreeman.github.io
 A brief description of the project's purpose and functionality.
 ## Directory Structure
 - `src/` - Folder containing source code.
