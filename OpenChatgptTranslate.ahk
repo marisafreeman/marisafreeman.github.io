@@ -1,4 +1,4 @@
-PgDn::  ; 使用 PgDn 键作为触发键
+XButton1::  ; 使用 XButton1 键作为触发键
 {
     ; 使用默认浏览器打开链接
     Run "https://chatgpt.com/?model=o1-mini"
