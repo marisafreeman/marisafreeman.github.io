@@ -20,9 +20,9 @@ authorizer.add_anonymous(root_directory, perm='elradfmw')  # 权限：e = 查看
 handler = FTPHandler
 handler.authorizer = authorizer
 
-# 配置 FTP 服务器地址与端口（例如 21）
+# 配置 FTP 服务器地址与端口（例如 2021）
 server = FTPServer(('0.0.0.0', 2021), handler)
 
 # 启动 FTP 服务器
-print("Starting FTP server on port 21...")
+print("Starting FTP server on port 2021...")
 server.serve_forever()
