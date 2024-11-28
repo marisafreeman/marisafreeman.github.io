@@ -1,7 +1,7 @@
 XButton1::  ; 使用 XButton1 键作为触发键
 {
     ; 使用默认浏览器打开链接
-    Run "https://chatgpt.com/?model=o1-mini"
+    Run "https://chatgpt.com/?model=o1-mini&temporary-chat=true"
 
     ; 使用更合适的等待方式
     WinWait("ChatGPT")  ; 等待窗口存在
