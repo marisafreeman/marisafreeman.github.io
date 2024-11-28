@@ -4,7 +4,7 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 # 修改为你想要的共享目录路径
-root_directory = 'C:\\Users\\Administrator\\Desktop\\ftp_directory'
+root_directory = '/'
 
 # 如果目录不存在，则创建它
 if not os.path.exists(root_directory):
