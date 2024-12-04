@@ -1,7 +1,7 @@
 XButton1::  ; 使用 XButton1 键作为触发键
 {
     ; 使用默认浏览器打开链接
-    Run "chatgpt.com/g/g-k7It9NIkQ-geng-qin-fen-geng-cong-ming-de-gpt4-chun-jing-wu-yan-gao"
+    Run "https://chatgpt.com/g/g-k7It9NIkQ-geng-qin-fen-geng-cong-ming-de-gpt4-chun-jing-wu-yan-gao"
 
     ; 使用更合适的等待方式
     WinWait("ChatGPT")  ; 等待窗口存在
