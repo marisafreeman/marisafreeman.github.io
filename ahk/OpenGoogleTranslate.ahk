@@ -1,5 +1,5 @@
-; 监听 XButton2 键
-XButton2::
+; 监听 XButton1 键
+XButton1::
 {
     ; 打开默认浏览器并跳转到 Google 图片翻译页面
     Run "https://translate.google.com/?sl=auto&tl=zh-CN&op=images"
