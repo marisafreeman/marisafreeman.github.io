@@ -1,0 +1,13 @@
+prepend:
+  - 'PROCESS-NAME-REGEX,.*lceda-pro.*,DIRECT'
+  - 'PROCESS-NAME-REGEX,.*WXDrive.*,DIRECT'
+  - 'PROCESS-NAME-REGEX,.*WeMail.*,DIRECT'
+  - 'PROCESS-NAME-REGEX,.*WXWork.*,DIRECT'
+  - 'PROCESS-NAME-REGEX,.*wxfilewatcher_x64.*,DIRECT'
+  - 'PROCESS-NAME-REGEX,.*wechatdevtools.*,DIRECT'
+  - 'PROCESS-NAME-REGEX,.*微信开发者工具.*,DIRECT'
+  - 'DOMAIN-KEYWORD,tfswufe,DIRECT'
+  - 'DOMAIN-KEYWORD,doubao,DIRECT'
+  - 'DOMAIN-KEYWORD,moonshot,DIRECT'
+append: []
+delete: []
