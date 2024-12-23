@@ -1,4 +1,5 @@
 prepend:
+  - 'DOMAIN-KEYWORD,huawei,DIRECT'
   - 'PROCESS-NAME-REGEX,.*lceda-pro.*,DIRECT'
   - 'PROCESS-NAME-REGEX,.*WXDrive.*,DIRECT'
   - 'PROCESS-NAME-REGEX,.*WeMail.*,DIRECT'
