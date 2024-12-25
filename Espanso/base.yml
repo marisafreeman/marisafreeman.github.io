@@ -47,3 +47,13 @@ matches:
 
   - trigger: ":7z"
     replace: "7z a -mx=9 -m0=LZMA2 -md=1024m -mfb=273 -ms=on -mmt=2 -mhe=on \".7z\" \"\""
+
+  - trigger: ":ip"
+    replace: "ipconfig && python -m http.server 80"
+
+  - trigger: ":mpv"
+    replace: "mpv --shuffle $HOME/touhou"
+
+  - trigger: ":ubu"
+    replace: "ssh -p2222 aa@localhost"
+    
