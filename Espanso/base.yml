@@ -54,6 +54,11 @@ matches:
   - trigger: ":mpv"
     replace: "mpv --shuffle $HOME/touhou"
 
-  - trigger: ":ubu"
+  - trigger: ":ub"
     replace: "ssh -p2222 aa@localhost"
-    
+
+  - trigger: ":c7"
+    replace: "ssh yangkun_42212346@192.168.43.248"
+
+  - trigger: ":dt"
+    replace: "/mnt/c/Users/Administrator/Desktop"
