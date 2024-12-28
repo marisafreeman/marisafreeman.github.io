@@ -52,7 +52,7 @@ matches:
     replace: "ipconfig && python -m http.server 80"
 
   - trigger: ":mpv"
-    replace: "mpv --shuffle --no-video $HOME/touhou"
+    replace: "mpv --shuffle --no-video /mnt/c/Users/Administrator/touhou"
 
   - trigger: ":ub"
     replace: "ssh -p2222 aa@localhost"
