@@ -52,13 +52,10 @@ matches:
     replace: "ipconfig && python -m http.server 80"
 
   - trigger: ":mpv"
-    replace: "mpv --shuffle $HOME/touhou"
+    replace: "mpv --shuffle --no-video $HOME/touhou"
 
   - trigger: ":ub"
     replace: "ssh -p2222 aa@localhost"
 
   - trigger: ":c7"
     replace: "ssh yangkun_42212346@192.168.43.248"
-
-  - trigger: ":dt"
-    replace: "/mnt/c/Users/Administrator/Desktop"
