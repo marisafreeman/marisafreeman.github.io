@@ -40,7 +40,7 @@ matches:
     replace: "translate to Chinese:"
 
   - trigger: ":tbd"
-    replace: "听不懂,请用非常详细的通俗易懂的话讲解(如果要举例子,要加上每个例子映射的是什么),我没有什么文化,并且阅读能力非常差,有严重的阅读障碍"
+    replace: "看不懂,请用非常详细的通俗易懂的话讲解(尽量不要举例,如果非要举例子,要加上每个例子映射的是什么),我没有什么文化,并且阅读能力非常差,有严重的阅读障碍"
 
   - trigger: ":gk"
     replace: "kirisamefreeman@gmail.com"
@@ -52,7 +52,7 @@ matches:
     replace: "ipconfig && python -m http.server 80"
 
   - trigger: ":mpv"
-    replace: "mpv --shuffle --no-video $HOME/touhou"
+    replace: "Start-Process mpv -ArgumentList '--shuffle', '--no-video', \"$HOME/touhou\" -WindowStyle Hidden"
 
   - trigger: ":ub"
     replace: "ssh -p2222 aa@localhost"
