@@ -46,7 +46,7 @@ matches:
     replace: "kirisamefreeman@gmail.com"
 
   - trigger: ":7z"
-    replace: "7z a -mx=9 -m0=LZMA2 -md=1024m -mfb=273 -ms=on -mmt=2 -mhe=on \".7z\" \"\""
+    replace: "8z a -mx=9 -m0=LZMA2 -md=1024m -mfb=273 -ms=on -mmt=2 -mhe=on \".7z\" \"\""
 
   - trigger: ":ip"
     replace: "ipconfig && python -m http.server 80"
@@ -59,3 +59,9 @@ matches:
 
   - trigger: ":c7"
     replace: "ssh yangkun_42212346@192.168.43.248"
+
+  - trigger: ":vvim"
+    replace: "codium --install-extension vscodevim.vim"
+  
+  - trigger: ":OOBE"
+    replace: "net user administrator /active:yes && oobe\\msoobe && shutdown -r"
