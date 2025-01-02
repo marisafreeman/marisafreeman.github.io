@@ -62,6 +62,9 @@ matches:
 
   - trigger: ":vvim"
     replace: "codium --install-extension vscodevim.vim"
+
+  - trigger: ":vpy"
+    replace: "codium --install-extension ms-python.python"
   
   - trigger: ":OOBE"
     replace: "net user administrator /active:yes && oobe\\msoobe && shutdown -r"
