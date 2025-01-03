@@ -58,7 +58,7 @@ matches:
     replace: "ssh -p2222 aa@localhost"
 
   - trigger: ":c7"
-    replace: "ssh yangkun_42212346@192.168.43.248"
+    replace: "ssh yangkun_42212346@192.168.216.230"
 
   - trigger: ":vvim"
     replace: "codium --install-extension vscodevim.vim"
@@ -67,4 +67,18 @@ matches:
     replace: "codium --install-extension ms-python.python"
   
   - trigger: ":OOBE"
+    replace: "net user administrator /active:yes && oobe\\msoobe && shutdown -r"
+  
+  - trigger: ":rmai"
+    replace: "在要求您写一篇文章之前，我将给您一些信息。您明白吗？
+
+在撰写内容时，有两个因素至关重要，即“困惑度”和“突发性”。困惑度衡量文本的复杂性。另一方面，突发性比较句子的变化。人类倾向于以较大的突发性写作，例如，使用一些较长或复杂的句子与较短的句子并列。人工智能生成的句子往往更为统一。因此，当我要求您创作以下内容时，我需要它具有相当的困惑度和突发性。您明白吗？
+
+使用前面提到的概念，重写这篇文章，要求具有高度的困惑度和突发性：
+
+重写这篇文章,将50%的名词和动词替换为相似的词，并重写动词的用法，以增加自然听起来的复杂性变化，同时保持相同的时态和整体含义。
+
+编辑: 第4步是评论中有人添加的,我觉得很有用。我在测试时,按照步骤1-3进行时,AI检测器中人类生成内容的比例高达80%。但当添加第4步后,这个比例提高到了约98%。当然,您必须小心,确保ChatGPT不会添加任何不适用的奇怪动词或名词。我总是建议之后用自己的眼睛审查,以确保文本传达您想要表达的信息。另一个需要注意的是,我认为第4步并不总是必要的。我之前也有不使用它就获得100%人类生成的内容。我建议您按照步骤1-3进行,看看AI检测的结果,然后根据需要使用第4步,因为并不总是需要的。"
+
+  - trigger: ":test"
     replace: "net user administrator /active:yes && oobe\\msoobe && shutdown -r"
