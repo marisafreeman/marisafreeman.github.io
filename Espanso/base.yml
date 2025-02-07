@@ -1,0 +1,85 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  - trigger: ":tr"
+    replace: |
+        translate to Chinese: {{clipb}}
+    vars:
+      - name: "clipb"
+        type: "clipboard"
+
+  - trigger: ":tbd"
+    replace: |
+      看不懂,请用非常详细的通俗易懂的话讲解,我没有什么文化,并且阅读能力非常差,有严重的阅读障碍.
+  
+  - trigger: ":7z"
+    replace: "7z a -mx=9 -m0=LZMA2 -md=1024m -mfb=273 -ms=on -mmt=2 -mhe=on \".7z\" \"\""
+
+  - trigger: ":qc"
+    replace: |
+      它的英语全称是什么?中文翻译是什么?
+
+  - trigger: ":ip"
+    replace: "ipconfig && python -m http.server 80\n"
+
+  - trigger: ":mpv"
+    replace: |
+      Start-Process mpv -ArgumentList '--shuffle', '--no-video', "$HOME/touhou" -WindowStyle Hidden
+      exit
+
+  - trigger: ":ssh"
+    replace: "ssh -p2222 aa@localhost\n"
+  
+  - trigger: ":codium"
+    replace: |
+      codium --install-extension vscodevim.vim
+      codium --install-extension ms-python.python
+
+  - trigger: ":rmai"
+    replace: |
+      请重构上面内容按照下面要求:在要求您写一篇文章之前,我将给您一些信息.您明白吗?上面写的内容太专业了,请别写的那么专业.在撰写内容时,有两个因素至关重要,即“困惑度”和“突发性”.困惑度衡量文本的复杂性.另一方面,突发性比较句子的变化.人类倾向于以较大的突发性写作,例如,使用一些较长或复杂的句子与较短的句子并列.人工智能生成的句子往往更为统一.因此，当我要求您创作以下内容时,我需要它具有相当的困惑度和突发性.您明白吗?使用前面提到的概念，重写这篇文章，要求具有高度的困惑度和突发性：重写这篇文章,将50%的名词和动词替换为相似的词,并重写动词的用法,以增加自然听起来的复杂性变化,同时保持相同的时态和整体含义.请添加一些随机错误,例如随机符号错误结构格式错误,非常少的文字错误.
+
+  - trigger: ":update"
+    replace: |
+      cd $env:USERPROFILE\\marisafreeman.github.io
+      git remote set-url --push origin no_push
+      git pull origin main
+      cp $env:USERPROFILE\\marisafreeman.github.io\\Espanso\\base.yml $env:USERPROFILE\\scoop\\apps\\espanso\\current\\.espanso\\match\\base.yml
+      cp $env:USERPROFILE\\marisafreeman.github.io\\nvim\\init.vim $env:USERPROFILE\\AppData\\Local\\nvim\\init.vim
+      exit
+
+  - trigger: ":nv"
+    replace: "cd / && nvim $(fzf)\n"
