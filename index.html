@@ -178,6 +178,10 @@ github.com/ohmyzsh
   sudo apt-get install zsh-syntax-highlighting
   echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
   source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  sed -i '/^plugins=(/ s/)/ zsh-autosuggestions)/' ~/.zshrc
+  source ~/.zshrc
+
 
 github.com/EvanLi/Github-Ranking
 github.com/syncthing
