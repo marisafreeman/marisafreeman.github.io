@@ -134,6 +134,9 @@ sudo pacman -S nvidia-settings
 github.com/ohmyzsh
   sudo pacman -Syu zsh noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  sudo pacman -S zsh-syntax-highlighting
+  echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 github.com/rime
   sudo pacman -S ibus
   sudo pacman -S ibus-rime
