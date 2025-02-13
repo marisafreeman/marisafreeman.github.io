@@ -214,7 +214,7 @@ github.com/GTNewHorizons
 github.com/openwrt
   openwrt.org
 github.com/danielgatis/rembg
-  python3 -m venv rembg
+  python3 -m venv ~/rembg
   source ~/rembg/bin/activate
   pip3 install onnxruntime
   pip3 install "rembg[cli]"
@@ -226,9 +226,11 @@ github.com/LazyVim
 
 
 github.com/Sanster/IOPaint
+  python3 -m venv ~/iopaint
+  source ~/iopaint/bin/activate
   sudo apt install python3-pip
   sudo apt install libjpeg-dev
-  pip3 install --break-system-packages iopaint
+  pip3 install iopaint
   ~/.local/bin/iopaint start --model=lama --device=cuda --port=8080
 
 github.com/AUTOMATIC1111/stable-diffusion-webui
