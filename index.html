@@ -235,21 +235,7 @@ github.com/Sanster/IOPaint
 
 github.com/AUTOMATIC1111/stable-diffusion-webui
 github.com/ohmyzsh
-  # The terminal font uses DejaVu Sans Mono for Powerline
-  sudo apt install zsh
-  zsh --version
-  sudo add-apt-repository ppa:git-core/ppa
-  sudo apt update
-  sudo apt install git
-  git --version
-  sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  sudo apt-get update
-  sudo apt-get install zsh-syntax-highlighting
-  echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-  source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-  sed -i '/^plugins=(/ s/)/ zsh-autosuggestions)/' ~/.zshrc
-  source ~/.zshrc
+  sudo pacman -S zsh
 
 
 github.com/amir1376/ab-download-manager
