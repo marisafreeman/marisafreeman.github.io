@@ -212,6 +212,13 @@ github.com/GTNewHorizons
   wiki.gtnewhorizons.com/wiki/Main_Page
 github.com/openwrt
   openwrt.org
+github.com/danielgatis/rembg
+  python3 -m venv rembg
+  source rembg/bin/activate
+  pip3 install onnxruntime
+  pip3 install "rembg[cli]"
+  rembg --help
+  deactivate
   
 github.com/LazyVim
   yay -S neovim-git
@@ -222,10 +229,7 @@ github.com/Sanster/IOPaint
   sudo apt install libjpeg-dev
   pip3 install --break-system-packages iopaint
   ~/.local/bin/iopaint start --model=lama --device=cuda --port=8080
-github.com/danielgatis/rembg
-  pip3 install --break-system-packages onnxruntime
-  pip3 install --break-system-packages "rembg[cli]"
-  ~/.local/bin/rembg --help
+
 github.com/AUTOMATIC1111/stable-diffusion-webui
 github.com/ohmyzsh
   # The terminal font uses DejaVu Sans Mono for Powerline
