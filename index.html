@@ -135,8 +135,7 @@ github.com/ohmyzsh
   sudo pacman -Syu zsh noto-fonts noto-fonts-emoji noto-fonts-extra awesome-terminal-fonts
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-  sudo pacman -S zsh-syntax-highlighting
-  echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+  grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "插件列表已修改" || echo "插件列表未修改，当前插件列表为：$(cat ~/.zshrc | grep "^plugins=")"
 github.com/rime
   sudo pacman -S ibus
   sudo pacman -S ibus-rime
