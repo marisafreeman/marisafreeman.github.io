@@ -135,6 +135,10 @@ sudo pacman -S tk pyenv nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip
   echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
   echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
   source ~/.zshrc
+  pyenv install 3.10.6
+  mkdir ~/py3106
+  cd ~/py3106
+  pyenv local 3.10.6
 pip install --upgrade pip
 
 ****** Githubs ******
@@ -233,12 +237,10 @@ github.com/LazyVim
 
 
 github.com/Sanster/IOPaint
-  python3 -m venv ~/iopaint
-  source ~/iopaint/bin/activate
-  sudo apt install python3-pip
-  sudo apt install libjpeg-dev
+  python3 -m venv ~/py3106/iopaint
+  source ~/py3106/iopaint/bin/activate
   pip3 install iopaint
-  ~/.local/bin/iopaint start --model=lama --device=cuda --port=8080
+  iopaint start --model=lama --device=cpu --port=8080
 
 github.com/AUTOMATIC1111/stable-diffusion-webui
 
