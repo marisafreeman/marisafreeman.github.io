@@ -124,6 +124,10 @@ cd yay
 makepkg -si
 yay -S clash-verge-rev-bin
 sudo pacman -S tk pyenv nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip
+  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+  echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+  echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
+  source ~/.zshrc
 pip install --upgrade pip
 
 ****** Githubs ******
