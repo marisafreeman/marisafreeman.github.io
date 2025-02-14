@@ -241,7 +241,9 @@ github.com/Sanster/IOPaint
   iopaint start --model=lama --device=cpu --port=8080
 github.com/AUTOMATIC1111/stable-diffusion-webui
   python3 -m venv ~/py3106/sd
-  cd ~/py3106/sd/bin && python --version && source ~/py3106/sd/bin/activate
+  cd ~/py3106/sd/bin
+  pyenv activate 3.10.6
+  source ~/py3106/sd/bin/activate
   wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
   sudo chmod +x ~/py3106/sd/bin/webui.sh
   webui.sh
