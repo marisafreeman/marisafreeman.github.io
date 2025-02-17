@@ -246,7 +246,8 @@ github.com/Sanster/IOPaint
   python3 -m venv ~/py3106/iopaint
   source ~/py3106/iopaint/bin/activate
   pip3 install iopaint
-  iopaint start --model=lama --device=cuda --port=8080
+  pip3 install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
+  iopaint start --model Sanster/AnyText --device=cuda --port=8080
 github.com/AUTOMATIC1111/stable-diffusion-webui
   pyenv shell 3.10.6
   source ~/.zshrc
