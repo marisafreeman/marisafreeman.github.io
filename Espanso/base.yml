@@ -41,7 +41,7 @@ matches:
       - name: "clipb"
         type: "clipboard"
 
-  - trigger: ":tbd"
+  - trigger: "`3"
     replace: |
       看不懂,请用非常详细的通俗易懂的话讲解,我没有什么文化,并且阅读能力非常差,有严重的阅读障碍.
   
