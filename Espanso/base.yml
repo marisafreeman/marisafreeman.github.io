@@ -50,7 +50,7 @@ matches:
 
   - trigger: "`2"
     replace: |
-      它的英语全称是什么?中文翻译是什么?
+      上面关键字它们的英语全称是什么?中文翻译是什么?
 
   - trigger: ":ip"
     replace: "ipconfig && python -m http.server 80\n"
