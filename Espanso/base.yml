@@ -57,7 +57,8 @@ matches:
 
   - trigger: ":mpv"
     replace: |
-      Start-Process mpv -ArgumentList '--shuffle', '--no-video', "$HOME/touhou" -WindowStyle Hidden
+      nohup mpv --shuffle --no-video "$HOME/touhou" &> /dev/null &
+      disown
       exit
 
   - trigger: ":ssh"
