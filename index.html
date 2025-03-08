@@ -104,12 +104,13 @@ makepkg -si
 github.com/ohmyzsh
   sudo pacman -Syu zsh
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  sudo poweroff
 github.com/zsh-users
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
-sudo pacman -S tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip
+sudo pacman -S fzf yt-dlp nmap ollama ripgrep kdeconnect zen-browser-bin tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -128,29 +129,19 @@ github.com/Askannz/optimus-manager
 github.com/open-webui/open-webui
 github.com/JohanChane/clashtui
 github.com/zyedidia/micro
-  sudo pacman -S micro
 github.com/rime
-  sudo pacman -S fcitx5-im fcitx5-rime
 github.com/mpv-player
-  sudo pacman -S mpv
 github.com/tmux
-  sudo pacman -S tmux
 github.com/jesseduffield/lazygit
-  sudo pacman -S lazygit
 github.com/obsproject
   sudo pacman -S obs-studio
 github.com/junegunn/fzf
-  sudo pacman -S fzf
 github.com/yt-dlp
-  sudo pacman -S yt-dlp
 github.com/nmap
-  sudo pacman -S nmap
 github.com/Genymobile/scrcpy
   sudo pacman -S scrcpy
 github.com/ollama/ollama
-  sudo pacman -S ollama
 github.com/BurntSushi/ripgrep
-  sudo pacman -S ripgrep
 github.com/docker
   sudo pacman -S docker docker-compose
 github.com/PrismLauncher
@@ -158,7 +149,6 @@ github.com/PrismLauncher
 virtualbox.org
   sudo pacman -S virtualbox virtualbox-host-dkms
 kdeconnect.kde.org
-  sudo pacman -S kdeconnect
 wireshark.org
   sudo pacman -S wireshark-qt
 krita.org
@@ -172,7 +162,6 @@ github.com/MCreator
 github.com/ventoy
   yay -S Ventoy-bin
 github.com/zen-browser
-  yay -S zen-browser-bin
 github.com/rustdesk
   yay -S rustdesk-bin
 github.com/upscayl
