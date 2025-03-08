@@ -110,7 +110,7 @@ github.com/zsh-users
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
-sudo pacman -S fzf yt-dlp nmap ollama ripgrep kdeconnect zen-browser-bin tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
+sudo pacman -S fzf yt-dlp nmap ollama ripgrep kdeconnect tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -162,6 +162,7 @@ github.com/MCreator
 github.com/ventoy
   yay -S Ventoy-bin
 github.com/zen-browser
+  yay -S zen-browser-bin
 github.com/rustdesk
   yay -S rustdesk-bin
 github.com/upscayl
