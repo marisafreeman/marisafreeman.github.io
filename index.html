@@ -118,15 +118,19 @@ github.com/pyenv
   echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
   source ~/.zshrc
   pyenv install 3.10.6
+  pyenv install 3.11
   mkdir ~/py3106
+  mkdir ~/py311
   cd ~/py3106
   pyenv local 3.10.6
+  source ~/.zshrc
+  cd ~/py311
+  pyenv local 3.11
   source ~/.zshrc
 github.com/Askannz/optimus-manager
   yay -S optimus-manager-git
 
 ****** Repositories ******
-github.com/open-webui/open-webui
 github.com/JohanChane/clashtui
 github.com/zyedidia/micro
 github.com/rime
@@ -197,6 +201,12 @@ github.com/AUTOMATIC1111/stable-diffusion-webui
   wget -qP ~/py3106/sd/bin https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
   sudo chmod +x ~/py3106/sd/bin/webui.sh
   webui.sh
+github.com/open-webui/open-webui
+  pyenv shell 3.11
+  source ~/.zshrc
+  python3 -m venv ~/py311/ow
+  source ~/py311/ow/bin/activate
+  
 github.com/comfyanonymous/ComfyUI
 github.com/amir1376/ab-download-manager
   addons.mozilla.org/firefox/addon/ab-download-manager
