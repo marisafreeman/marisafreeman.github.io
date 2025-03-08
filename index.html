@@ -110,7 +110,7 @@ github.com/zsh-users
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
-sudo pacman -S fzf yt-dlp nmap ollama ripgrep kdeconnect tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
+sudo pacman -S krita wireshark-qt virtualbox virtualbox-host-dkms obs-studio docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -134,25 +134,18 @@ github.com/mpv-player
 github.com/tmux
 github.com/jesseduffield/lazygit
 github.com/obsproject
-  sudo pacman -S obs-studio
 github.com/junegunn/fzf
 github.com/yt-dlp
 github.com/nmap
 github.com/Genymobile/scrcpy
-  sudo pacman -S scrcpy
 github.com/ollama/ollama
 github.com/BurntSushi/ripgrep
 github.com/docker
-  sudo pacman -S docker docker-compose
 github.com/PrismLauncher
-  sudo pacman -S prismlauncher
 virtualbox.org
-  sudo pacman -S virtualbox virtualbox-host-dkms
 kdeconnect.kde.org
 wireshark.org
-  sudo pacman -S wireshark-qt
 krita.org
-  sudo pacman -S krita
 github.com/espanso
   yay -S  espanso-x11-git
   espanso service register
