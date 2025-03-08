@@ -113,6 +113,8 @@ github.com/zsh-users
 sudo pacman -S krita wireshark-qt virtualbox virtualbox-host-dkms obs-studio docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
 sudo systemctl start docker
 sudo systemctl enable docker
+sudo usermod -aG docker $USER
+sudo poweroff
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -204,10 +206,7 @@ github.com/AUTOMATIC1111/stable-diffusion-webui
   sudo chmod +x ~/py3106/sd/bin/webui.sh
   webui.sh
 github.com/open-webui/open-webui
-  pyenv shell 3.11
-  source ~/.zshrc
-  python3 -m venv ~/py311/ow
-  source ~/py311/ow/bin/activate
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
   
 github.com/comfyanonymous/ComfyUI
 github.com/amir1376/ab-download-manager
