@@ -182,14 +182,6 @@ github.com/Sanster/IOPaint
   pip3 install iopaint
   pip3 install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
   iopaint start --model Sanster/AnyText --device=cuda --port=8080
-github.com/AUTOMATIC1111/stable-diffusion-webui
-  pyenv shell 3.10.6
-  source ~/.zshrc
-  python3 -m venv ~/py3106/sd
-  source ~/py3106/sd/bin/activate
-  wget -qP ~/py3106/sd/bin https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
-  sudo chmod +x ~/py3106/sd/bin/webui.sh
-  webui.sh
 github.com/open-webui/open-webui
   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 github.com/danielgatis/rembg
