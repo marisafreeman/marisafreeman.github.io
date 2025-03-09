@@ -195,6 +195,10 @@ github.com/open-webui/open-webui
 github.com/danielgatis/rembg
   docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
 github.com/comfyanonymous/ComfyUI
+  pip install torch torchvision torchaudio --break-system-packages --extra-index-url https://download.pytorch.org/whl/cu126
+  git clone https://github.com/comfyanonymous/ComfyUI.git
+  cd ComfyUI
+  pip install -r requirements.txt
 github.com/amir1376/ab-download-manager
   addons.mozilla.org/firefox/addon/ab-download-manager
   yay -S ab-download-manager-git
