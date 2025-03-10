@@ -184,23 +184,6 @@ github.com/amir1376/ab-download-manager
 github.com/coder/code-server
   yay -S code-server
   sudo systemctl enable --now code-server@$USER
-github.com/Sanster/IOPaint
-  pyenv shell 3.10.6
-  source ~/.zshrc
-  python3 -m venv ~/py3106/iopaint
-  source ~/py3106/iopaint/bin/activate
-  pip3 install iopaint
-  pip3 install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
-  iopaint start --model Sanster/AnyText --device=cuda --port=8080
-github.com/open-webui/open-webui
-  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
-github.com/danielgatis/rembg
-  docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
-github.com/comfyanonymous/ComfyUI
-  pip install torch torchvision torchaudio --break-system-packages --extra-index-url https://download.pytorch.org/whl/cu126
-  git clone https://github.com/comfyanonymous/ComfyUI.git
-  cd ComfyUI
-  pip install --break-system-packages -r requirements.txt
 github.com/darkreader
   addons.mozilla.org/firefox/addon/darkreader
 github.com/downthemall
@@ -225,4 +208,21 @@ github.com/josStorer/chatGPTBox
   addons.mozilla.org/firefox/addon/chatgptbox
 github.com/mozilla/video-bg-play
   addons.mozilla.org/android/addon/video-background-play-fix
+github.com/open-webui/open-webui
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+github.com/danielgatis/rembg
+  docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
+github.com/comfyanonymous/ComfyUI
+  pip install torch torchvision torchaudio --break-system-packages --extra-index-url https://download.pytorch.org/whl/cu126
+  git clone https://github.com/comfyanonymous/ComfyUI.git
+  cd ComfyUI
+  pip install --break-system-packages -r requirements.txt
+github.com/Sanster/IOPaint
+  pyenv shell 3.10.6
+  source ~/.zshrc
+  python3 -m venv ~/py3106/iopaint
+  source ~/py3106/iopaint/bin/activate
+  pip3 install iopaint
+  pip3 install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
+  iopaint start --model Sanster/AnyText --device=cuda --port=8080
 </pre>
