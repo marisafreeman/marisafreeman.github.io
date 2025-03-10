@@ -54,6 +54,7 @@ javatpoint.com/gimp
 javatpoint.com/gradle
 
 ****** MyBookmarks ******
+<div id="url-container">
 grok.com
 chatgpt.com
 gemini.google.com
@@ -80,15 +81,15 @@ lianjiajichang.net
 x-zy.shop
 www.downloadnth.com/download.html
 s3.amazonaws.com/psiphon/web/u1dy-me41-s9yv/en/download.html
-docs.microsoft.com/minecraft/creator
+docs.microsoft.com/minecraft/creator  
 web.telegram.org/a
 github.com/EvanLi/Github-Ranking
 github.com/FabricMC
 github.com/GTNewHorizons
 github.com/openwrt
 github.com/massgravel/Microsoft-Activation-Scripts
-
-****** GPTs ******
+</div>
+****** GPTs ******  
 chatgpt.com/g/g-dHRRUFODc-video-summarizer
 
 ****** ublacklist_rulesets ******
@@ -205,7 +206,7 @@ github.com/turnoffthelights
 github.com/josStorer/chatGPTBox
   addons.mozilla.org/firefox/addon/chatgptbox
 github.com/mozilla/video-bg-play
-  addons.mozilla.org/android/addon/video-background-play-fix
+  addons.mozilla.org/android/addon/video-background-play-fix  
 github.com/immersive-translate
   addons.mozilla.org/firefox/addon/immersive-translate
 github.com/open-webui/open-webui
@@ -227,13 +228,17 @@ github.com/Sanster/IOPaint
   iopaint start --model Sanster/AnyText --device=cuda --port=8080
 </pre>
 <script>
-    window.onload = function() {
-        // Find all URLs in the body and wrap them in <a> tags
-        const bodyText = document.body.innerHTML;
-        const urlPattern = /(https?:\/\/[^\s]+)/g; // Regular expression to match URLs
-        const updatedText = bodyText.replace(urlPattern, function(url) {
-            return `<a href="${url}" target="_blank">${url}</a>`;
-        });
-        document.body.innerHTML = updatedText; // Update the body content with links
+    window.onload = function() {  
+        // Get the element with the specified ID
+        const container = document.getElementById('url-container');    
+        if (container) {
+            // Get the inner HTML of that container  
+            const bodyText = container.innerHTML;
+            const urlPattern = /(https?:\/\/[^\s]+)/g; // Regular expression to match URLs
+            const updatedText = bodyText.replace(urlPattern, function(url) {
+                return `<a href="${url}" target="_blank">${url}</a>`;
+            });
+            container.innerHTML = updatedText; // Update the content with links
+        }
     }
 </script>
