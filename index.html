@@ -27,10 +27,10 @@ github.com/freeCodeCamp
   codecademy.com/learn/learn-c-pointers-and-memory
   codecademy.com/learn/introduction-to-open-source
   codecademy.com/learn/fundamentals-of-operating-systems
-docs.fabricmc.net/develop/getting-started/introduction-to-fabric-and-modding
+docs.fabricmc.net/develop/getting-started/introduction-to-fabric-and-modding  
 github.com/AUTOMATIC1111/stable-diffusion-webui/wiki
 wiki.termux.com/wiki/Getting_started
-wiki.facepunch.com/gmod/Quick_Start
+wiki.facepunch.com/gmod/Quick_Start  
 wiki.archlinux.org/title/Installation_guide
 developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 edu.gcfglobal.org/en/topics/emailbasics
@@ -120,7 +120,7 @@ github.com/ohmyzsh
   sudo poweroff
 github.com/zsh-users
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
   sudo poweroff
@@ -209,7 +209,7 @@ github.com/mozilla/video-bg-play
 github.com/immersive-translate
   addons.mozilla.org/firefox/addon/immersive-translate
 github.com/open-webui/open-webui
-  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
 github.com/danielgatis/rembg
   docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
 github.com/comfyanonymous/ComfyUI
@@ -221,8 +221,19 @@ github.com/Sanster/IOPaint
   pyenv shell 3.10.6
   source ~/.zshrc
   python3 -m venv ~/py3106/iopaint
-  source ~/py3106/iopaint/bin/activate
+  source ~/py3106/iopaint/bin/activate  
   pip3 install iopaint
   pip3 install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
   iopaint start --model Sanster/AnyText --device=cuda --port=8080
 </pre>
+<script>
+    window.onload = function() {
+        // Find all URLs in the body and wrap them in <a> tags
+        const bodyText = document.body.innerHTML;
+        const urlPattern = /(https?:\/\/[^\s]+)/g; // Regular expression to match URLs
+        const updatedText = bodyText.replace(urlPattern, function(url) {
+            return `<a href="${url}" target="_blank">${url}</a>`;
+        });
+        document.body.innerHTML = updatedText; // Update the body content with links
+    }
+</script>
