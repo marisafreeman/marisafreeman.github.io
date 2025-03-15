@@ -71,7 +71,11 @@ matches:
 
   - trigger: ":rmai"
     replace: |
-      请重构上面内容按照下面要求:在要求您写一篇文章之前,我将给您一些信息.您明白吗?上面写的内容太专业了,请别写的那么专业.在撰写内容时,有两个因素至关重要,即“困惑度”和“突发性”.困惑度衡量文本的复杂性.另一方面,突发性比较句子的变化.人类倾向于以较大的突发性写作,例如,使用一些较长或复杂的句子与较短的句子并列.人工智能生成的句子往往更为统一.因此，当我要求您创作以下内容时,我需要它具有相当的困惑度和突发性.您明白吗?使用前面提到的概念，重写这篇文章，要求具有高度的困惑度和突发性：重写这篇文章,将50%的名词和动词替换为相似的词,并重写动词的用法,以增加自然听起来的复杂性变化,同时保持相同的时态和整体含义.请添加一些随机错误,例如随机符号错误结构格式错误,非常少的文字错误.
+      1. I'm going to give you some information before asking you to write an article. Do you understand?
+      2. When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separately, burstiness compares the variations of sentences. Humans tend to write with great burstiness, for example, with some longer or complex sentences alongside shorter sentences. AI sentences tend to be more uniform. Therefore, when writing the following content I am going to ask you to create, I need it to have a good amount of perplexity and burstiness. Do you understand?
+      3. using the concepts written previously, rewrite this article with a high degree of perplexity and burstiness:
+      4. Rewrite this article changing 50% of nouns and verbs for similar ones and rewrite verb usages to add natural sounding variations in complexity but retain the same tense and overall meaning.
+      Edit: Number 4 was an addition that someone in the comments added that I found useful. I was testing it out, and when following steps 1 - 3 I got within the high range of 80% human made content in the ai detector. But when adding on step 4, it brought it to around 98%. Granted, you have to be careful make sure ChatGPT doesn't add any weird verbs or nouns that don't apply. I always recommend looking through with your own eyes afterward to make sure the text conveys the message you are aiming for. Another thing to note is that I don't think step 4 is ALWAYS necessary. I have gotten 100% human made content without it before. I suggest that you follow steps 1 - 3, see how much ai detects, and THEN use step 4 as necessary if applicable, because it won't always be.
 
   - trigger: ":update"
     replace: |
