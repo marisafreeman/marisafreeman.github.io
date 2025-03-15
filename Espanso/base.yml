@@ -43,7 +43,7 @@ matches:
 
   - trigger: "`3"
     replace: |
-      看不懂,请用非常详细的通俗易懂的话讲解,我没有什么文化,并且阅读能力非常差,有严重的阅读障碍.
+      I have severe reading difficulties and learning disabilities, along with cognitive and visual problems. It's hard for me to focus or pay attention for long. When I read, I often lose my place or skip lines. I also have trouble understanding the meaning of what I'm reading. Reading makes me feel frustrated or anxious, and I'm not interested in books or other written materials because of these struggles.Please explain the above content again using very simple and easy-to-understand language.
   
   - trigger: ":7z"
     replace: "7z a -mx=9 -m0=LZMA2 -md=1024m -mfb=273 -ms=on -mmt=2 -mhe=on \".7z\" \"\""
