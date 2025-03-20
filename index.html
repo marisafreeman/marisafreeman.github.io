@@ -108,7 +108,6 @@ https://github.com/BurntSushi/ripgrep
 https://github.com/docker
 https://github.com/keepassxreboot
 https://github.com/PrismLauncher
-https://github.com/Askannz/optimus-manager    yay -S optimus-manager-git
 https://github.com/MCreator    yay -S mcreator-eap
 https://github.com/ventoy    yay -S Ventoy-bin
 https://github.com/rustdesk    yay -S rustdesk-bin
@@ -131,6 +130,12 @@ https://github.com/immersive-translate    https://addons.mozilla.org/firefox/add
 ****** GPTs ******
 https://chatgpt.com/g/g-dHRRUFODc-video-summarizer
 </div>
+
+****** driver ******
+sudo pacman -Syu
+sudo pacman -S lib32-nvidia-utils lib32-mesa-utils nvidia-settings
+yay -S optimus-manager-git
+
 ****** init ******
 sudo pacman -Syu
 sudo pacman -S git
@@ -147,7 +152,7 @@ github.com/zsh-users
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
   sudo poweroff
-sudo pacman -S 7zip krita keepassxc wireshark-qt virtualbox virtualbox-host-dkms obs-studio docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk nvidia-settings fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
+sudo pacman -S 7zip krita keepassxc wireshark-qt virtualbox virtualbox-host-dkms obs-studio docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
