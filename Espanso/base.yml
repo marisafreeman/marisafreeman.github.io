@@ -1,39 +1,4 @@
-# espanso match file
-
-# For a complete introduction, visit the official docs at: https://espanso.org/docs/
-
-# You can use this file to define the base matches (aka snippets)
-# that will be available in every application when using espanso.
-
-# Matches are substitution rules: when you type the "trigger" string
-# it gets replaced by the "replace" string.
 matches:
-  # Simple text replacement
-  - trigger: ":espanso"
-    replace: "Hi there!"
-
-  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
-
-  # But matches can also be dynamic:
-
-  # Print the current date
-  - trigger: ":date"
-    replace: "{{mydate}}"
-    vars:
-      - name: mydate
-        type: date
-        params:
-          format: "%m/%d/%Y"
-
-  # Print the output of a shell command
-  - trigger: ":shell"
-    replace: "{{output}}"
-    vars:
-      - name: output
-        type: shell
-        params:
-          cmd: "echo 'Hello from your shell'"
-
   - trigger: "`3"
     replace: |
         I'm an elementary student with reading difficulties. Please help me understand.
@@ -50,7 +15,7 @@ matches:
 
   - trigger: ":ssh"
     replace: "ssh -p2222 aa@localhost\n"
-  
+
   - trigger: ":codium"
     replace: |
       codium --install-extension vscodevim.vim
@@ -59,10 +24,10 @@ matches:
   - trigger: ":rmai"
     replace: |
       1. I'm going to give you some information before asking you to write an article. Do you understand?
-      2. When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separately, burstiness compares the variations of sentences. Humans tend to write with great burstiness, for example, with some longer or complex sentences alongside shorter sentences. AI sentences tend to be more uniform. Therefore, when writing the following content I am going to ask you to create, I need it to have a good amount of perplexity and burstiness. Do you understand?
+      2. When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separa>
       3. using the concepts written previously, rewrite this article with a high degree of perplexity and burstiness:
-      4. Rewrite this article changing 50% of nouns and verbs for similar ones and rewrite verb usages to add natural sounding variations in complexity but retain the same tense and overall meaning.
-      Edit: Number 4 was an addition that someone in the comments added that I found useful. I was testing it out, and when following steps 1 - 3 I got within the high range of 80% human made content in the ai detector. But when adding on step 4, it brought it to around 98%. Granted, you have to be careful make sure ChatGPT doesn't add any weird verbs or nouns that don't apply. I always recommend looking through with your own eyes afterward to make sure the text conveys the message you are aiming for. Another thing to note is that I don't think step 4 is ALWAYS necessary. I have gotten 100% human made content without it before. I suggest that you follow steps 1 - 3, see how much ai detects, and THEN use step 4 as necessary if applicable, because it won't always be.
+      4. Rewrite this article changing 50% of nouns and verbs for similar ones and rewrite verb usages to add natural sounding variations in complexi>
+      Edit: Number 4 was an addition that someone in the comments added that I found useful. I was testing it out, and when following steps 1 - 3 I g>
 
   - trigger: ":update"
     replace: |
