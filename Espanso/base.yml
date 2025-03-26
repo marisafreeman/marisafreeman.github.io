@@ -37,6 +37,7 @@ matches:
   - trigger: "`3"
     replace: |
       I'm an elementary student with reading difficulties. Please help me understand.
+      .
 
   - trigger: ":7z"
     replace: "7z a -mx=9 -m0=LZMA2 -md=1024m -mfb=273 -ms=on -mmt=2 -mhe=on \".7z\" \"\""
