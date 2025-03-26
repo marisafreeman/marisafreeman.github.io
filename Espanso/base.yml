@@ -1,16 +1,16 @@
 matches:
   - trigger: "`1"
     replace: |-
-      I'm an elementary student with reading difficulties. Please help me understand.
+      I'm an elementary student with reading difficulties，Please help me understand.
 
   - trigger: "`2"
     replace: |-
-      What is the full English name of the keyword here? What's its Chinese translation?
+      What is the full English name of the keyword here? What's its Chinese translation？
 
   - trigger: "`3"
     replace: |-
       1. I'm going to give you some information before asking you to write an article. Do you understand?
-      2. When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separately, burstiness compares the variations of sentences. Humans tend to write with great burstiness, for example, with som>
+      2. When it comes to writing content, two factors are crucial, "perplexity" and "burstiness." Perplexity measures the complexity of text. Separa>
       3. using the concepts written previously, rewrite this article with a high degree of perplexity and burstiness:
-      4. Rewrite this article changing 50% of nouns and verbs for similar ones and rewrite verb usages to add natural sounding variations in complexity but retain the same tense and overall meaning.
-      Edit: Number 4 was an addition that someone in the comments added that I found useful. I was testing it out, and when following steps 1 - 3 I got within the high range of 80% human made content in the ai detector. But when adding on step 4, it brought it to aroun>
+      4. Rewrite this article changing 50% of nouns and verbs for similar ones and rewrite verb usages to add natural sounding variations in complexi>
+      Edit: Number 4 was an addition that someone in the comments added that I found useful. I was testing it out, and when following steps 1 - 3 I g>
