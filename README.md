@@ -4,10 +4,10 @@ Finish: https://bilibili.com/video/BV1fK4y187jE?spm_id_from=333.788.videopod.epi
 Finish: https://w3schools.com/dsa  
 Finish: https://tutorialspoint.com/operating_system
 
-# https://api.deepseek.com/v1
+# [deepseek](https://api.deepseek.com/v1)
 1-sk-3443677c384f4b57855276bf4a5130b5
 
-# https://api.vveai.com/v1
+# [api.v3.cm](https://api.vveai.com/v1)
 1-sk-hq4vfHRRHHHuF2dWAbC4Ff224b264c5aA893BbBe75502eF8
 
 # Favorite Shops
