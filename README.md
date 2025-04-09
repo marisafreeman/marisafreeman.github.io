@@ -206,6 +206,10 @@ matches:
     replace: |-
       请用最简单的示例代码举例.
 
+  - trigger: "`3"
+    replace: |-
+      这个段代码是什么意思?用注释的方式逐行解释:
+
   - trigger: "`q"
     replace: |-
       translate to english：
