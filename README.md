@@ -220,6 +220,6 @@ matches:
 
   - trigger: "`z"
     replace: |-
-      What is the full English name of the keyword here? What's its Chinese translation？
+      这里的关键词的英文全称是什么？它的中文翻译是什么？
 ```
 
