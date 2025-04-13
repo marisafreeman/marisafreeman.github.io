@@ -114,6 +114,7 @@ https://github.com/keepassxreboot
 https://github.com/PrismLauncher  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
+https://github.com/bootandy/dust  
 https://github.com/MCreator    yay -S mcreator-eap  
 https://github.com/ventoy    yay -S Ventoy-bin  
 https://github.com/rustdesk    yay -S rustdesk-bin  
