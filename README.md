@@ -115,6 +115,7 @@ https://github.com/PrismLauncher
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
 https://github.com/bootandy/dust  
+https://github.com/wezterm/wezterm  
 https://github.com/MCreator    yay -S mcreator-eap  
 https://github.com/ventoy    yay -S Ventoy-bin  
 https://github.com/rustdesk    yay -S rustdesk-bin  
@@ -151,7 +152,7 @@ github.com/zsh-users
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
   sudo poweroff
-sudo pacman -S 7zip yarn krita keepassxc wireshark-qt virtualbox virtualbox-host-dkms obs-studio docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
+sudo pacman -S 7zip yarn krita keepassxc wireshark-qt virtualbox virtualbox-host-dkms obs-studio wezterm docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 yay -S optimus-manager-git
 sudo systemctl start docker
