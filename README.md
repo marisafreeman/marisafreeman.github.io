@@ -215,15 +215,7 @@ matches:
     replace: |-
       这个段代码是什么意思?用注释的方式逐行解释:
 
-  - trigger: "`q"
-    replace: |-
-      translate to english：
-
-  - trigger: "`w"
-    replace: |-
-      translate to Chinese：
-
-  - trigger: "`z"
+  - trigger: "`4"
     replace: |-
       这里的关键词的英文全称是什么？它的中文翻译是什么？
 ```
