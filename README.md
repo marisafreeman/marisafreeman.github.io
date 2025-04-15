@@ -19,12 +19,7 @@ LeLeKeTang:https://pan.baidu.com/s/1Gltyjb9UaBmG7RWEhHupRw?pwd=6z4c
 
 # Youtube Subscribed
 https://www.youtube.com/@bulianglin  
-https://www.youtube.com/@leonard2834  
-https://www.youtube.com/@renminbao1  
-https://www.youtube.com/@Torontobigface  
-https://www.youtube.com/@funtv8964  
 https://www.youtube.com/@kjfx6  
-https://www.youtube.com/@voachinese
 
 # Tutorial
 https://learngitbranching.js.org  
