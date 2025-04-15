@@ -159,9 +159,6 @@ github.com/espanso
   yay -S  espanso-x11-git
   espanso service register
   espanso service start
-github.com/coder/code-server
-  yay -S code-server
-  sudo systemctl enable --now code-server@$USER
 ```
 
 # Repositories
@@ -171,14 +168,6 @@ github.com/comfyanonymous/ComfyUI
   git clone https://github.com/comfyanonymous/ComfyUI.git
   cd ComfyUI
   pip install --break-system-packages -r requirements.txt
-github.com/Sanster/IOPaint
-  pyenv shell 3.10.6
-  source ~/.zshrc
-  python3 -m venv ~/py3106/iopaint
-  source ~/py3106/iopaint/bin/activate
-  pip3 install iopaint
-  pip3 install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
-  iopaint start --model Sanster/AnyText --device=cuda --port=8080
 ```
 
 # Espanso
