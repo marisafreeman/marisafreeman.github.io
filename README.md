@@ -22,14 +22,11 @@ https://flask.palletsprojects.com/en/stable
 https://codecademy.com/learn/computer-architecture-assembly-language  
 https://codecademy.com/learn/fundamentals-of-operating-systems  
 https://docs.fabricmc.net/develop/getting-started/introduction-to-fabric-and-modding  
-https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki  
 https://wiki.termux.com/wiki/Getting_started  
 https://wiki.facepunch.com/gmod/Quick_Start  
 https://wiki.archlinux.org/title/Installation_guide  
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions  
 https://edu.gcfglobal.org/en/topics/emailbasics  
-https://docs.python.org/zh-cn/3.13/tutorial/index.html  
-https://docs.python.org/zh-cn/3.13/library/index.html  
 https://edu.gcfglobal.org/en/macosbasics  
 https://studytonight.com/computer-networks  
 https://geeksforgeeks.org/computer-organization-and-architecture-tutorials  
@@ -42,9 +39,7 @@ https://youtube.com/watch?v=nPW6tKeapsM
 https://doc.rust-lang.org/book  
 https://developer.mozilla.org/en-US/docs/Web/HTTP  
 https://www.gimp.org/tutorials  
-https://www.markdowntutorial.com  
 https://javatpoint.com/gradle  
-https://neovim.io/doc/user/lua-guide.html  
 
 # MyBookmarks
 https://api.v3.cm  
