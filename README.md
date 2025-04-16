@@ -95,13 +95,10 @@ https://github.com/PrismLauncher
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
 https://github.com/bootandy/dust  
-https://github.com/sharkdp/bat  
+sudo pacman -S bat    # https://github.com/sharkdp/bat  
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
-yay -S mcreator-eap    # https://github.com/MCreator  
 yay -S Ventoy-bin    # https://github.com/ventoy    
-https://github.com/rustdesk    yay -S rustdesk-bin  
-https://github.com/upscayl    yay -S upscayl-bin  
-https://github.com/JannisX11/blockbench    yay -S blockbench-bin  
+yay -S rustdesk-bin    # https://github.com/rustdesk
 https://github.com/zen-browser    yay -S zen-browser-bin  
 https://github.com/amir1376/ab-download-manager    yay -S ab-download-manager-git  
 https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
