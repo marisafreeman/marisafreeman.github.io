@@ -93,7 +93,7 @@ sudo pacman -S keepassxc    # https://github.com/keepassxreboot
 sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
-https://github.com/bootandy/dust  
+sudo pacman -S dust    # https://github.com/bootandy/dust  
 sudo pacman -S bat    # https://github.com/sharkdp/bat  
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
 yay -S Ventoy-bin    # https://github.com/ventoy    
