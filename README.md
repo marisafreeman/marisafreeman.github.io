@@ -69,6 +69,7 @@ https://virtualbox.org
 https://kdeconnect.kde.org  
 wireshark-cli    # https://wireshark.org  
 https://krita.org  
+sudo pacman -S 7zip    # https://www.7-zip.org
 https://github.com/juewuy/ShellCrash  
 https://github.com/freeCodeCamp  
 https://github.com/EvanLi/Github-Ranking  
@@ -129,7 +130,7 @@ github.com/zsh-users
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
   sudo poweroff
-sudo pacman -S 7zip yarn krita keepassxc wireshark-qt virtualbox virtualbox-host-dkms obs-studio wezterm docker docker-compose scrcpy prismlauncher fzf yt-dlp nmap ollama ripgrep kdeconnect tk fuse2 flatpak noto-fonts-cjk python-pip micro fcitx5-im fcitx5-rime mpv tmux lazygit
+sudo pacman -S yarn krita virtualbox virtualbox-host-dkms wezterm docker docker-compose scrcpy tk fuse2 flatpak noto-fonts-cjk python-pip fcitx5-im fcitx5-rime tmux
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 yay -S optimus-manager-git
 sudo systemctl start docker
