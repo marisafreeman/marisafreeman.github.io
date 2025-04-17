@@ -87,7 +87,7 @@ sudo pacman -S yt-dlp    # https://github.com/yt-dlp
 sudo pacman -S nmap    # https://github.com/nmap  
 https://github.com/Genymobile/scrcpy  
 sudo pacman -S ollama    # https://github.com/ollama/ollama  
-https://github.com/BurntSushi/ripgrep  
+sudo pacman -S ripgrep    # https://github.com/BurntSushi/ripgrep  
 https://github.com/docker  
 sudo pacman -S keepassxc    # https://github.com/keepassxreboot  
 sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
