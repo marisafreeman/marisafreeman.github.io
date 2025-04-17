@@ -67,7 +67,7 @@ https://docs.microsoft.com/minecraft/creator
 https://web.telegram.org/a  
 https://virtualbox.org  
 https://kdeconnect.kde.org  
-https://wireshark.org  
+wireshark-cli    # https://wireshark.org  
 https://krita.org  
 https://github.com/juewuy/ShellCrash  
 https://github.com/freeCodeCamp  
@@ -79,11 +79,11 @@ https://github.com/openwrt
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/zyedidia/micro  
 https://github.com/rime  
-https://github.com/mpv-player  
+sudo pacman -S mpv    # https://github.com/mpv-player  
 https://github.com/tmux  
-https://github.com/jesseduffield/lazygit  
+sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
 https://github.com/obsproject  
-https://github.com/junegunn/fzf  
+sudo pacman -S fzf    # https://github.com/junegunn/fzf  
 https://github.com/yt-dlp  
 https://github.com/nmap  
 https://github.com/Genymobile/scrcpy  
@@ -91,7 +91,7 @@ https://github.com/ollama/ollama
 https://github.com/BurntSushi/ripgrep  
 https://github.com/docker  
 https://github.com/keepassxreboot  
-https://github.com/PrismLauncher  
+sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
 https://github.com/bootandy/dust  
