@@ -74,7 +74,7 @@ https://github.com/juewuy/ShellCrash
 https://github.com/freeCodeCamp  
 https://github.com/EvanLi/Github-Ranking  
 https://github.com/FabricMC  
-https://github.com/cli  
+sudo pacman -S github-cli    # https://github.com/cli  
 https://github.com/GTNewHorizons  
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
