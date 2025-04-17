@@ -77,20 +77,19 @@ https://github.com/cli
 https://github.com/GTNewHorizons  
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
-https://github.com/zyedidia/micro  
 https://github.com/rime  
 sudo pacman -S mpv    # https://github.com/mpv-player  
 https://github.com/tmux  
 sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
-https://github.com/obsproject  
+sudo pacman -S obs-studio    # https://github.com/obsproject  
 sudo pacman -S fzf    # https://github.com/junegunn/fzf  
 sudo pacman -S yt-dlp    # https://github.com/yt-dlp  
-https://github.com/nmap  
+sudo pacman -S nmap    # https://github.com/nmap  
 https://github.com/Genymobile/scrcpy  
-https://github.com/ollama/ollama  
+sudo pacman -S ollama    # https://github.com/ollama/ollama  
 https://github.com/BurntSushi/ripgrep  
 https://github.com/docker  
-https://github.com/keepassxreboot  
+sudo pacman -S keepassxc    # https://github.com/keepassxreboot  
 sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
@@ -99,8 +98,8 @@ sudo pacman -S bat    # https://github.com/sharkdp/bat
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
 yay -S Ventoy-bin    # https://github.com/ventoy    
 yay -S rustdesk-bin    # https://github.com/rustdesk
-https://github.com/zen-browser    yay -S zen-browser-bin  
-https://github.com/amir1376/ab-download-manager    yay -S ab-download-manager-git  
+yay -S zen-browser-bin    # https://github.com/zen-browser
+yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager    
 https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
 https://github.com/open-webui/open-webui    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
 https://github.com/danielgatis/rembg    docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000  
