@@ -84,7 +84,7 @@ https://github.com/tmux
 sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
 https://github.com/obsproject  
 sudo pacman -S fzf    # https://github.com/junegunn/fzf  
-https://github.com/yt-dlp  
+sudo pacman -S yt-dlp    # https://github.com/yt-dlp  
 https://github.com/nmap  
 https://github.com/Genymobile/scrcpy  
 https://github.com/ollama/ollama  
