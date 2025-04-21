@@ -4,13 +4,6 @@ Finish: https://bilibili.com/video/BV1fK4y187jE?spm_id_from=333.788.videopod.epi
 Finish: https://w3schools.com/dsa  
 Finish: https://tutorialspoint.com/operating_system
 
-# Favorite Shops
-WuZheRiJi  
-XiaoShiDaiNeiYiDian
-
-# cloud storage shared link
-LeLeKeTang:https://pan.baidu.com/s/1Gltyjb9UaBmG7RWEhHupRw?pwd=6z4c
-
 # Tutorial
 https://learngitbranching.js.org  
 https://w3schools.com  
