@@ -90,10 +90,10 @@ sudo pacman -S dust    # https://github.com/bootandy/dust
 sudo pacman -S bat    # https://github.com/sharkdp/bat  
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
-yay -S Ventoy-bin    # https://github.com/ventoy    
-yay -S rustdesk-bin    # https://github.com/rustdesk
-yay -S zen-browser-bin    # https://github.com/zen-browser
-yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager    
+yay -S Ventoy-bin    # https://github.com/ventoy  
+yay -S rustdesk-bin    # https://github.com/rustdesk  
+yay -S zen-browser-bin    # https://github.com/zen-browser  
+yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager  
 https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
 https://github.com/open-webui/open-webui    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
 https://github.com/danielgatis/rembg    docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000  
