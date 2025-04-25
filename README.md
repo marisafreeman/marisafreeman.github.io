@@ -58,7 +58,6 @@ https://xn--yfrp36ea9901a.com
 https://lianjiajichang.net  
 https://www.downloadnth.com/download.html  
 https://s3.amazonaws.com/psiphon/web/u1dy-me41-s9yv/en/download.html  
-https://docs.microsoft.com/minecraft/creator  
 https://web.telegram.org/a  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
 sudo pacman -S krita    # https://krita.org  
