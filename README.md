@@ -2,7 +2,7 @@
 使用mihomo内核:https://outstanding-value-42f.notion.site/Clash-Meta-25934f38fc1449f9b7e95c5ad194bff8    https://github.com/juewuy/ShellCrash  
 Finish: https://bilibili.com/video/BV1fK4y187jE?spm_id_from=333.788.videopod.episodes&vd_source=c2e06d1e2788a0a5e8c2b40d65f1f913&p=10  
 Finish: https://w3schools.com/dsa  
-Finish: https://tutorialspoint.com/operating_system
+Finish: https://tutorialspoint.com/operating_system  
 Finish: https://qemu.org  
 Finish: https://wiki.archlinux.org/title/Installation_guide  
 
