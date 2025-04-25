@@ -111,6 +111,7 @@ yay -S rustdesk-bin    # https://github.com/rustdesk
 yay -S zen-browser-bin    # https://github.com/zen-browser  
 yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager
 ```
+
 ```bash
 # https://github.com/docker
   sudo pacman -S docker docker-compose    
