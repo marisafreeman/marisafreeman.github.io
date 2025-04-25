@@ -66,7 +66,7 @@ https://github.com/FabricMC
 https://github.com/GTNewHorizons  
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
-https://github.com/rime  
+sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
 https://github.com/docker  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
