@@ -60,7 +60,6 @@ https://www.downloadnth.com/download.html
 https://s3.amazonaws.com/psiphon/web/u1dy-me41-s9yv/en/download.html  
 https://docs.microsoft.com/minecraft/creator  
 https://web.telegram.org/a  
-https://virtualbox.org  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
 sudo pacman -S krita    # https://krita.org  
 sudo pacman -S 7zip    # https://www.7-zip.org
@@ -124,7 +123,7 @@ github.com/zsh-users
   grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
   source ~/.zshrc
   sudo poweroff
-sudo pacman -S yarn krita virtualbox virtualbox-host-dkms wezterm docker docker-compose scrcpy tk fuse2 flatpak noto-fonts-cjk python-pip fcitx5-im fcitx5-rime tmux
+sudo pacman -S yarn krita wezterm docker docker-compose scrcpy tk fuse2 flatpak noto-fonts-cjk python-pip fcitx5-im fcitx5-rime tmux
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 yay -S optimus-manager-git
 sudo systemctl start docker
