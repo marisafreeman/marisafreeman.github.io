@@ -68,6 +68,21 @@ https://github.com/openwrt
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
+
+https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
+https://github.com/open-webui/open-webui    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
+https://github.com/danielgatis/rembg    docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000  
+https://github.com/darkreader    https://addons.mozilla.org/firefox/addon/darkreader  
+https://github.com/AutomaApp    https://addons.mozilla.org/firefox/addon/automa  
+https://github.com/violentmonkey    https://addons.mozilla.org/firefox/addon/violentmonkey  
+https://github.com/gildas-lormeau/SingleFile    https://addons.mozilla.org/firefox/addon/single-file  
+https://github.com/M1ck0/adskipper-extension    https://addons.mozilla.org/firefox/addon/automatic-adskipper  
+https://github.com/josStorer/chatGPTBox    https://addons.mozilla.org/firefox/addon/chatgptbox  
+https://github.com/immersive-translate    https://addons.mozilla.org/firefox/addon/immersive-translate  
+https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB  
+
+
+# Packages
 ```bash
 sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
@@ -96,17 +111,6 @@ yay -S rustdesk-bin    # https://github.com/rustdesk
 yay -S zen-browser-bin    # https://github.com/zen-browser  
 yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager
 ```
-https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
-https://github.com/open-webui/open-webui    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
-https://github.com/danielgatis/rembg    docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000  
-https://github.com/darkreader    https://addons.mozilla.org/firefox/addon/darkreader  
-https://github.com/AutomaApp    https://addons.mozilla.org/firefox/addon/automa  
-https://github.com/violentmonkey    https://addons.mozilla.org/firefox/addon/violentmonkey  
-https://github.com/gildas-lormeau/SingleFile    https://addons.mozilla.org/firefox/addon/single-file  
-https://github.com/M1ck0/adskipper-extension    https://addons.mozilla.org/firefox/addon/automatic-adskipper  
-https://github.com/josStorer/chatGPTBox    https://addons.mozilla.org/firefox/addon/chatgptbox  
-https://github.com/immersive-translate    https://addons.mozilla.org/firefox/addon/immersive-translate  
-https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB  
 ```bash
 # https://github.com/docker
   sudo pacman -S docker docker-compose    
@@ -119,7 +123,6 @@ https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefo
   espanso service register
   espanso service start
 ```
-
 # init
 ```bash
 sudo pacman -Syu
