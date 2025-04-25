@@ -72,9 +72,8 @@ https://github.com/zyddnys/manga-image-translator
 https://github.com/atuinsh/atuin  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
 sudo pacman -S krita    # https://krita.org  
-sudo pacman -S 7zip    # https://www.7-zip.org
+sudo pacman -S 7zip    # https://www.7-zip.org  
 sudo pacman -S github-cli    # https://github.com/cli  
-yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
 sudo pacman -S mpv    # https://github.com/mpv-player  
 sudo pacman -S tmux    # https://github.com/tmux  
 sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
@@ -90,6 +89,7 @@ sudo pacman -S prismlauncher    # https://github.com/PrismLauncher
 sudo pacman -S dust    # https://github.com/bootandy/dust  
 sudo pacman -S bat    # https://github.com/sharkdp/bat  
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
+yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
 yay -S Ventoy-bin    # https://github.com/ventoy    
 yay -S rustdesk-bin    # https://github.com/rustdesk
 yay -S zen-browser-bin    # https://github.com/zen-browser
