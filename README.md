@@ -66,10 +66,10 @@ https://github.com/FabricMC
 https://github.com/GTNewHorizons  
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
-sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
 https://github.com/docker  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
+sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
 sudo pacman -S krita    # https://krita.org  
 sudo pacman -S 7zip    # https://www.7-zip.org  
@@ -89,6 +89,7 @@ sudo pacman -S prismlauncher    # https://github.com/PrismLauncher
 sudo pacman -S dust    # https://github.com/bootandy/dust  
 sudo pacman -S bat    # https://github.com/sharkdp/bat  
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
+yay -S optimus-manager-git    # https://github.com/Askannz/optimus-manager
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
 yay -S Ventoy-bin    # https://github.com/ventoy  
 yay -S rustdesk-bin    # https://github.com/rustdesk  
@@ -125,7 +126,6 @@ github.com/zsh-users
   sudo poweroff
 sudo pacman -S yarn docker docker-compose tk fuse2 flatpak noto-fonts-cjk python-pip fcitx5-im fcitx5-rime
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
-yay -S optimus-manager-git
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
