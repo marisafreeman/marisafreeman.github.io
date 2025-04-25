@@ -66,12 +66,11 @@ https://github.com/FabricMC
 https://github.com/GTNewHorizons  
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
-# https://github.com/docker  
-    sudo pacman -S docker docker-compose
-    sudo systemctl start docker
-    sudo systemctl enable docker
-    sudo usermod -aG docker $USER
-    sudo poweroff
+sudo pacman -S docker docker-compose    # https://github.com/docker
+  sudo systemctl start docker
+  sudo systemctl enable docker
+  sudo usermod -aG docker $USER
+  sudo poweroff
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
 sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
