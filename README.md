@@ -59,9 +59,8 @@ https://s3.amazonaws.com/psiphon/web/u1dy-me41-s9yv/en/download.html
 https://docs.microsoft.com/minecraft/creator  
 https://web.telegram.org/a  
 https://virtualbox.org  
-https://kdeconnect.kde.org  
-wireshark-cli    # https://wireshark.org  
-https://krita.org  
+sudo pacman -S wireshark-cli    # https://wireshark.org  
+sudo pacman -S krita    # https://krita.org  
 sudo pacman -S 7zip    # https://www.7-zip.org
 https://github.com/juewuy/ShellCrash  
 https://github.com/freeCodeCamp  
@@ -73,13 +72,13 @@ https://github.com/openwrt
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/rime  
 sudo pacman -S mpv    # https://github.com/mpv-player  
-https://github.com/tmux  
+sudo pacman -S tmux    # https://github.com/tmux  
 sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
 sudo pacman -S obs-studio    # https://github.com/obsproject  
 sudo pacman -S fzf    # https://github.com/junegunn/fzf  
 sudo pacman -S yt-dlp    # https://github.com/yt-dlp  
 sudo pacman -S nmap    # https://github.com/nmap  
-https://github.com/Genymobile/scrcpy  
+sudo pacman -S scrcpy    # https://github.com/Genymobile/scrcpy  
 sudo pacman -S ollama    # https://github.com/ollama/ollama  
 sudo pacman -S ripgrep    # https://github.com/BurntSushi/ripgrep  
 https://github.com/docker  
