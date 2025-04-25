@@ -112,6 +112,10 @@ https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefo
   sudo systemctl enable docker
   sudo usermod -aG docker $USER
   sudo poweroff
+# https://github.com/espanso
+  yay -S  espanso-x11-git
+  espanso service register
+  espanso service start
 ```
 
 # init
@@ -144,10 +148,6 @@ github.com/pyenv
   cd ~/py3106
   pyenv local 3.10.6
   source ~/.zshrc
-github.com/espanso
-  yay -S  espanso-x11-git
-  espanso service register
-  espanso service start
 ```
 
 # Repositories
