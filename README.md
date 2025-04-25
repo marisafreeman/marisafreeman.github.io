@@ -68,10 +68,6 @@ https://github.com/openwrt
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
-
-https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
-https://github.com/open-webui/open-webui    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
-https://github.com/danielgatis/rembg    docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000  
 https://github.com/darkreader    https://addons.mozilla.org/firefox/addon/darkreader  
 https://github.com/AutomaApp    https://addons.mozilla.org/firefox/addon/automa  
 https://github.com/violentmonkey    https://addons.mozilla.org/firefox/addon/violentmonkey  
@@ -124,6 +120,17 @@ yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-mana
   espanso service register
   espanso service start
 ```
+
+```bash
+# https://github.com/Mintplex-Labs/anything-llm
+  docker pull mintplexlabs/anythingllm
+  docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
+# https://github.com/open-webui/open-webui
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
+# https://github.com/danielgatis/rembg
+  docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
+```
+
 # init
 ```bash
 sudo pacman -Syu
