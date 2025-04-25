@@ -59,18 +59,21 @@ https://lianjiajichang.net
 https://www.downloadnth.com/download.html  
 https://s3.amazonaws.com/psiphon/web/u1dy-me41-s9yv/en/download.html  
 https://web.telegram.org/a  
-sudo pacman -S wireshark-cli    # https://wireshark.org  
-sudo pacman -S krita    # https://krita.org  
-sudo pacman -S 7zip    # https://www.7-zip.org
 https://github.com/juewuy/ShellCrash  
 https://github.com/freeCodeCamp  
 https://github.com/EvanLi/Github-Ranking  
 https://github.com/FabricMC  
-sudo pacman -S github-cli    # https://github.com/cli  
 https://github.com/GTNewHorizons  
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/rime  
+https://github.com/docker  
+https://github.com/zyddnys/manga-image-translator  
+https://github.com/atuinsh/atuin  
+sudo pacman -S wireshark-cli    # https://wireshark.org  
+sudo pacman -S krita    # https://krita.org  
+sudo pacman -S 7zip    # https://www.7-zip.org
+sudo pacman -S github-cli    # https://github.com/cli  
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
 sudo pacman -S mpv    # https://github.com/mpv-player  
 sudo pacman -S tmux    # https://github.com/tmux  
@@ -82,11 +85,8 @@ sudo pacman -S nmap    # https://github.com/nmap
 sudo pacman -S scrcpy    # https://github.com/Genymobile/scrcpy  
 sudo pacman -S ollama    # https://github.com/ollama/ollama  
 sudo pacman -S ripgrep    # https://github.com/BurntSushi/ripgrep  
-https://github.com/docker  
 sudo pacman -S keepassxc    # https://github.com/keepassxreboot  
 sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
-https://github.com/zyddnys/manga-image-translator  
-https://github.com/atuinsh/atuin  
 sudo pacman -S dust    # https://github.com/bootandy/dust  
 sudo pacman -S bat    # https://github.com/sharkdp/bat  
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
