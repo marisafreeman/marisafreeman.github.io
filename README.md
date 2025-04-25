@@ -68,6 +68,7 @@ https://github.com/openwrt
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
+```bash
 sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
 sudo pacman -S krita    # https://krita.org  
@@ -93,7 +94,8 @@ yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
 yay -S Ventoy-bin    # https://github.com/ventoy  
 yay -S rustdesk-bin    # https://github.com/rustdesk  
 yay -S zen-browser-bin    # https://github.com/zen-browser  
-yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager  
+yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager
+```
 https://github.com/Mintplex-Labs/anything-llm    docker pull mintplexlabs/anythingllm    docker run -d --restart always -p 3001:3001 mintplexlabs/anythingllm  
 https://github.com/open-webui/open-webui    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
 https://github.com/danielgatis/rembg    docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000  
