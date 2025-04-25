@@ -71,6 +71,7 @@ https://github.com/GTNewHorizons
 https://github.com/openwrt  
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/rime  
+yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
 sudo pacman -S mpv    # https://github.com/mpv-player  
 sudo pacman -S tmux    # https://github.com/tmux  
 sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
