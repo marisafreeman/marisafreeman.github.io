@@ -105,8 +105,6 @@ https://github.com/M1ck0/adskipper-extension    https://addons.mozilla.org/firef
 https://github.com/josStorer/chatGPTBox    https://addons.mozilla.org/firefox/addon/chatgptbox  
 https://github.com/immersive-translate    https://addons.mozilla.org/firefox/addon/immersive-translate  
 https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB  
-
-# multi
 ```bash
 # https://github.com/docker
   sudo pacman -S docker docker-compose    
