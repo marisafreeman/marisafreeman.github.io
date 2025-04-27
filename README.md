@@ -5,6 +5,7 @@ Finish: https://w3schools.com/dsa
 Finish: https://tutorialspoint.com/operating_system  
 Finish: https://qemu.org  
 Finish: https://wiki.archlinux.org/title/Installation_guide  
+Finish: https://www.w3schools.com/css/default.asp
 
 # Tutorial
 https://learngitbranching.js.org  
