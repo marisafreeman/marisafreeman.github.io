@@ -148,26 +148,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 sudo pacman -S lib32-mesa-utils mesa-utils
-github.com/pyenv
-  curl -fsSL https://pyenv.run | bash
-  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-  echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-  echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
-  source ~/.zshrc
-  pyenv install 3.10.6
-  mkdir ~/py3106
-  cd ~/py3106
-  pyenv local 3.10.6
-  source ~/.zshrc
-```
-
-# Repositories
-```bash
-github.com/comfyanonymous/ComfyUI
-  pip install torch torchvision torchaudio --break-system-packages --extra-index-url https://download.pytorch.org/whl/cu126
-  git clone https://github.com/comfyanonymous/ComfyUI.git
-  cd ComfyUI
-  pip install --break-system-packages -r requirements.txt
 ```
 
 # Espanso
