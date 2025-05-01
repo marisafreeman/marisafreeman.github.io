@@ -106,6 +106,8 @@ sudo pacman -S bat    # https://github.com/sharkdp/bat
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm
 sudo pacman -S flatpak    # https://flatpak.org
 sudo pacman -S nvidia-settings    # https://github.com/NVIDIA/nvidia-settings
+sudo pacman -S lib32-mesa-utils    # http://mesa3d.sourceforge.net
+sudo pacman -S mesa-utils    # https://www.mesa3d.org
 yay -S optimus-manager-git    # https://github.com/Askannz/optimus-manager
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
 yay -S Ventoy-bin    # https://github.com/ventoy
@@ -140,14 +142,13 @@ yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-mana
   docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
 ```
 
-# init
+# yay
 ```bash
 sudo pacman -Syu
 sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-sudo pacman -S lib32-mesa-utils mesa-utils
 ```
 
 # Espanso
