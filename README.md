@@ -142,7 +142,7 @@ sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-sudo pacman -S yarn tk fuse2 flatpak noto-fonts-cjk python-pip fcitx5-im fcitx5-rime
+sudo pacman -S yarn tk fuse2 flatpak noto-fonts-cjk python-pip
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
