@@ -83,6 +83,7 @@ https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefo
 ```bash
 sudo pacman -S noto-fonts-cjk    # https://www.google.com/get/noto
 sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime
+sudo pacman -S lib32-nvidia-utils nvidia-utils    # http://www.nvidia.com
 sudo pacman -S python-pip    # https://pip.pypa.io
 sudo pacman -S wireshark-cli    # https://wireshark.org
 sudo pacman -S krita    # https://krita.org
@@ -146,7 +147,7 @@ sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
+sudo pacman -S lib32-mesa-utils mesa-utils
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
