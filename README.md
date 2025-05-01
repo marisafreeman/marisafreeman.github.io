@@ -101,7 +101,8 @@ sudo pacman -S keepassxc    # https://github.com/keepassxreboot
 sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
 sudo pacman -S dust    # https://github.com/bootandy/dust  
 sudo pacman -S bat    # https://github.com/sharkdp/bat  
-sudo pacman -S wezterm    # https://github.com/wezterm/wezterm  
+sudo pacman -S wezterm    # https://github.com/wezterm/wezterm
+sudo pacman -S flatpak    # https://flatpak.org
 yay -S optimus-manager-git    # https://github.com/Askannz/optimus-manager
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
 yay -S Ventoy-bin    # https://github.com/ventoy  
