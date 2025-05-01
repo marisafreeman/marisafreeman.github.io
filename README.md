@@ -120,6 +120,9 @@ yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-mana
   yay -S  espanso-x11-git
   espanso service register
   espanso service start
+# https://github.com/fish-shell/fish-shell
+  sudo pacman -S fish
+  chsh -s /usr/bin/fish
 ```
 
 ```bash
@@ -139,16 +142,6 @@ sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-github.com/ohmyzsh
-  sudo pacman -Syu zsh
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  sudo poweroff
-github.com/zsh-users
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  
-  grep "^plugins=" ~/.zshrc | grep -q 'git' && [[ $(cat ~/.zshrc | grep "^plugins=") == "plugins=(git)" ]] && sed -i 's/^plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc && echo "Plugin list has been updated" || echo "Plugin list has not been modified, current plugin list is: $(cat ~/.zshrc | grep "^plugins=")"
-  source ~/.zshrc
-  sudo poweroff
 sudo pacman -S yarn tk fuse2 flatpak noto-fonts-cjk python-pip fcitx5-im fcitx5-rime
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 github.com/pyenv
