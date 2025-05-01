@@ -78,16 +78,28 @@ https://github.com/josStorer/chatGPTBox    https://addons.mozilla.org/firefox/ad
 https://github.com/immersive-translate    https://addons.mozilla.org/firefox/addon/immersive-translate  
 https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefox/addon/%E6%B5%81%E7%95%85%E9%98%85%E8%AF%BB  
 
+# yay
+```bash
+sudo pacman -Syu
+sudo pacman -S git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
 
 # Packages
 ```bash
 sudo pacman -S noto-fonts-cjk    # https://www.google.com/get/noto
 sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime
 sudo pacman -S lib32-nvidia-utils nvidia-utils    # http://www.nvidia.com
+sudo pacman -S nvidia-settings    # https://github.com/NVIDIA/nvidia-settings
+sudo pacman -S lib32-mesa-utils    # http://mesa3d.sourceforge.net
+sudo pacman -S mesa-utils    # https://www.mesa3d.org
+sudo pacman -S wezterm    # https://github.com/wezterm/wezterm
 sudo pacman -S python-pip    # https://pip.pypa.io
+sudo pacman -S 7zip    # https://www.7-zip.org
 sudo pacman -S wireshark-cli    # https://wireshark.org
 sudo pacman -S krita    # https://krita.org
-sudo pacman -S 7zip    # https://www.7-zip.org
 sudo pacman -S github-cli    # https://github.com/cli
 sudo pacman -S mpv    # https://github.com/mpv-player
 sudo pacman -S tmux    # https://github.com/tmux
@@ -103,16 +115,12 @@ sudo pacman -S keepassxc    # https://github.com/keepassxreboot
 sudo pacman -S prismlauncher    # https://github.com/PrismLauncher
 sudo pacman -S dust    # https://github.com/bootandy/dust
 sudo pacman -S bat    # https://github.com/sharkdp/bat
-sudo pacman -S wezterm    # https://github.com/wezterm/wezterm
 sudo pacman -S flatpak    # https://flatpak.org
-sudo pacman -S nvidia-settings    # https://github.com/NVIDIA/nvidia-settings
-sudo pacman -S lib32-mesa-utils    # http://mesa3d.sourceforge.net
-sudo pacman -S mesa-utils    # https://www.mesa3d.org
 yay -S optimus-manager-git    # https://github.com/Askannz/optimus-manager
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
+yay -S zen-browser-bin    # https://github.com/zen-browser
 yay -S Ventoy-bin    # https://github.com/ventoy
 yay -S rustdesk-bin    # https://github.com/rustdesk
-yay -S zen-browser-bin    # https://github.com/zen-browser
 yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager
 ```
 
@@ -140,15 +148,6 @@ yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-mana
   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main  
 # https://github.com/danielgatis/rembg
   docker run -d --restart always -p 7000:7000 danielgatis/rembg s --host 0.0.0.0 --port 7000
-```
-
-# yay
-```bash
-sudo pacman -Syu
-sudo pacman -S git
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
 ```
 
 # Espanso
