@@ -81,6 +81,7 @@ https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefo
 
 # Packages
 ```bash
+sudo pacman -S noto-fonts-cjk    # https://www.google.com/get/noto
 sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
 sudo pacman -S wireshark-cli    # https://wireshark.org  
 sudo pacman -S krita    # https://krita.org  
