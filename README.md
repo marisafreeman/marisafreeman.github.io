@@ -82,32 +82,33 @@ https://github.com/Bistutu/FluentRead    https://addons.mozilla.org/zh-CN/firefo
 # Packages
 ```bash
 sudo pacman -S noto-fonts-cjk    # https://www.google.com/get/noto
-sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime  
-sudo pacman -S wireshark-cli    # https://wireshark.org  
-sudo pacman -S krita    # https://krita.org  
-sudo pacman -S 7zip    # https://www.7-zip.org  
-sudo pacman -S github-cli    # https://github.com/cli  
-sudo pacman -S mpv    # https://github.com/mpv-player  
-sudo pacman -S tmux    # https://github.com/tmux  
-sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit  
-sudo pacman -S obs-studio    # https://github.com/obsproject  
-sudo pacman -S fzf    # https://github.com/junegunn/fzf  
-sudo pacman -S yt-dlp    # https://github.com/yt-dlp  
-sudo pacman -S nmap    # https://github.com/nmap  
-sudo pacman -S scrcpy    # https://github.com/Genymobile/scrcpy  
-sudo pacman -S ollama    # https://github.com/ollama/ollama  
-sudo pacman -S ripgrep    # https://github.com/BurntSushi/ripgrep  
-sudo pacman -S keepassxc    # https://github.com/keepassxreboot  
-sudo pacman -S prismlauncher    # https://github.com/PrismLauncher  
-sudo pacman -S dust    # https://github.com/bootandy/dust  
-sudo pacman -S bat    # https://github.com/sharkdp/bat  
+sudo pacman -S fcitx5-im fcitx5-rime    # https://github.com/rime
+sudo pacman -S python-pip    # https://pip.pypa.io
+sudo pacman -S wireshark-cli    # https://wireshark.org
+sudo pacman -S krita    # https://krita.org
+sudo pacman -S 7zip    # https://www.7-zip.org
+sudo pacman -S github-cli    # https://github.com/cli
+sudo pacman -S mpv    # https://github.com/mpv-player
+sudo pacman -S tmux    # https://github.com/tmux
+sudo pacman -S lazygit    # https://github.com/jesseduffield/lazygit
+sudo pacman -S obs-studio    # https://github.com/obsproject
+sudo pacman -S fzf    # https://github.com/junegunn/fzf
+sudo pacman -S yt-dlp    # https://github.com/yt-dlp
+sudo pacman -S nmap    # https://github.com/nmap
+sudo pacman -S scrcpy    # https://github.com/Genymobile/scrcpy
+sudo pacman -S ollama    # https://github.com/ollama/ollama
+sudo pacman -S ripgrep    # https://github.com/BurntSushi/ripgrep
+sudo pacman -S keepassxc    # https://github.com/keepassxreboot
+sudo pacman -S prismlauncher    # https://github.com/PrismLauncher
+sudo pacman -S dust    # https://github.com/bootandy/dust
+sudo pacman -S bat    # https://github.com/sharkdp/bat
 sudo pacman -S wezterm    # https://github.com/wezterm/wezterm
 sudo pacman -S flatpak    # https://flatpak.org
 yay -S optimus-manager-git    # https://github.com/Askannz/optimus-manager
-yay -S neovim-nightly-bin    # https://github.com/neovim/neovim  
-yay -S Ventoy-bin    # https://github.com/ventoy  
-yay -S rustdesk-bin    # https://github.com/rustdesk  
-yay -S zen-browser-bin    # https://github.com/zen-browser  
+yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
+yay -S Ventoy-bin    # https://github.com/ventoy
+yay -S rustdesk-bin    # https://github.com/rustdesk
+yay -S zen-browser-bin    # https://github.com/zen-browser
 yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager
 ```
 
@@ -144,7 +145,6 @@ sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-sudo pacman -S yarn tk fuse2 python-pip
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
