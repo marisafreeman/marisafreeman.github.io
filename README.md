@@ -144,7 +144,7 @@ sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-sudo pacman -S yarn tk fuse2 flatpak python-pip
+sudo pacman -S yarn tk fuse2 python-pip
 sudo pacman -S lib32-nvidia-utils nvidia-utils lib32-mesa-utils mesa-utils nvidia-settings
 github.com/pyenv
   curl -fsSL https://pyenv.run | bash
