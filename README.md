@@ -6,6 +6,7 @@ Finish: https://tutorialspoint.com/operating_system
 Finish: https://qemu.org  
 Finish: https://wiki.archlinux.org/title/Installation_guide  
 Finish: https://www.w3schools.com/css/default.asp
+Finish: (Fantasy Westward Journey Brick Moving Tutorial)https://item.taobao.com/item.htm?abbucket=14&detail_redpacket_pop=true&id=680103533549&ltk2=17462882459885f8vltb7aawh5b0kq905si&ns=1&priceTId=undefined&query=%E6%A2%A6%E5%B9%BB%E8%A5%BF%E6%B8%B8%E6%90%AC%E7%A0%96&spm=a21n57.1.hoverItem.5&utparam=%7B%22aplus_abtest%22%3A%228144c30a70d36282e3d4768bbbdc32c3%22%7D&xxc=taobaoSearch
 
 # Tutorial
 https://learngitbranching.js.org  
