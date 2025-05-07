@@ -175,5 +175,9 @@ matches:
   - trigger: "`4"
     replace: |-
       这里的关键词的英文全称是什么？它的中文翻译是什么？
+
+  - trigger: "`q"
+    replace: |-
+      translate to Chinese：
 ```
 
