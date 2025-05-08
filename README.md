@@ -183,7 +183,7 @@ matches:
       - name: "clipb"
         type: "clipboard"
 
-  - trigger: "\x1E" # <ctrl-e>
+  - trigger: "\x1E" # <ctrl-^>
     replace: translate to Chinese：{{clipb}}
     force_mode: keys
 ```
