@@ -159,36 +159,28 @@ matches:
   - trigger: "`0"
     replace: |-
       请给我一个xxx的系统性学习目录
-  
+
   - trigger: "`1"
-    replace: |-
-      听不懂,请用最简洁通俗易懂的一句话概括(但保持稍微的专业性).
-
-  - trigger: "`2"
-    replace: |-
-      请用最简单的示例代码举例.
-
-  - trigger: "`3"
-    replace: |-
-      这个段代码是什么意思?用注释的方式逐行解释:
-
-  - trigger: "`4"
-    replace: |-
-      这里的关键词的英文全称是什么？它的中文翻译是什么？
-
-  - trigger: "`q"
     replace: |-
       translate to English：{{clipb}}
     vars:
       - name: "clipb"
         type: "clipboard"
-
-  - trigger: "\x05" # <ctrl-e>
+  
+  - trigger: "`2"
     replace: |-
-      translate to Chinese文{{clipb}}
-    force_mode: keys
-    vars:
-      - name: "clipb"
-        type: "clipboard"
+      听不懂,请用最简洁通俗易懂的一句话概括(但保持稍微的专业性).
+
+  - trigger: "`3"
+    replace: |-
+      请用最简单的示例代码举例.
+
+  - trigger: "`4"
+    replace: |-
+      这个段代码是什么意思?用注释的方式逐行解释:
+
+  - trigger: "`5"
+    replace: |-
+      这里的关键词的英文全称是什么？它的中文翻译是什么？
 ```
 
