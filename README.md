@@ -178,13 +178,13 @@ matches:
 
   - trigger: "`q"
     replace: |-
-      translate to Chinese：{{clipb}}
+      translate to English：{{clipb}}
     vars:
       - name: "clipb"
         type: "clipboard"
 
   - trigger: "\x1E" # <ctrl-e>
-    replace: testing
+    replace: translate to Chinese：{{clipb}}
     force_mode: keys
 ```
 
