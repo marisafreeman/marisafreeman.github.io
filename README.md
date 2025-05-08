@@ -185,7 +185,7 @@ matches:
 
   - trigger: "`q"
     replace: |-
-      translate to Chinese：{{clipb}}
+      translate to English：{{clipb}}
     vars:
       - name: "clipb"
         type: "clipboard"
