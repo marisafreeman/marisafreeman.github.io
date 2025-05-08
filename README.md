@@ -184,7 +184,8 @@ matches:
         type: "clipboard"
 
   - trigger: "\x05" # <ctrl-e>
-    replace: TranslateToChinese{{clipb}}
+    replace: |-
+      translate to Chinese：{{clipb}}
     force_mode: keys
     vars:
       - name: "clipb"
