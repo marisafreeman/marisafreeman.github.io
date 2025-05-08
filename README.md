@@ -162,7 +162,7 @@ matches:
 
   - trigger: "`1"
     replace: |-
-      translate to English：{{clipb}}
+      translate to Chinese：{{clipb}}
     vars:
       - name: "clipb"
         type: "clipboard"
@@ -182,5 +182,12 @@ matches:
   - trigger: "`5"
     replace: |-
       这里的关键词的英文全称是什么？它的中文翻译是什么？
+
+  - trigger: "`q"
+    replace: |-
+      translate to Chinese：{{clipb}}
+    vars:
+      - name: "clipb"
+        type: "clipboard"
 ```
 
