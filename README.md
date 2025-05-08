@@ -182,5 +182,9 @@ matches:
     vars:
       - name: "clipb"
         type: "clipboard"
+
+  - trigger: "\x05" # <ctrl-e>
+    replace: testing
+    force_mode: keys
 ```
 
