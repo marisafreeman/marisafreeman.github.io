@@ -1,4 +1,7 @@
 # Todo List
+生活常识学习目录
+常识学习目录
+安全常识学习目录
 Finish: (mihomo-core)https://outstanding-value-42f.notion.site/Clash-Meta-25934f38fc1449f9b7e95c5ad194bff8    https://github.com/juewuy/ShellCrash  
 Finish: https://bilibili.com/video/BV1fK4y187jE?spm_id_from=333.788.videopod.episodes&vd_source=c2e06d1e2788a0a5e8c2b40d65f1f913&p=10  
 Finish: https://w3schools.com/dsa  
