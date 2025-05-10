@@ -105,7 +105,7 @@ sudo pacman -S lib32-nvidia-utils nvidia-utils    # http://www.nvidia.com
 sudo pacman -S nvidia-settings    # https://github.com/NVIDIA/nvidia-settings
 sudo pacman -S lib32-mesa-utils    # http://mesa3d.sourceforge.net
 sudo pacman -S mesa-utils    # https://www.mesa3d.org
-sudo pacman -S wezterm    # https://github.com/wezterm/wezterm
+sudo pacman -S ghostty    # https://github.com/ghostty-org/ghostty
 sudo pacman -S python-pip    # https://pip.pypa.io
 sudo pacman -S 7zip    # https://www.7-zip.org
 sudo pacman -S wireshark-cli    # https://wireshark.org
