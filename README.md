@@ -2,10 +2,7 @@
 生活常识学习目录  
 常识学习目录  
 安全常识学习目录  
-maven快速入门  
-gradle快速入门  
 sqllite快速入门  
-LHYMELEAF快速入门  
 https://learngitbranching.js.org  
 https://w3schools.com  
 https://freecodecamp.org  
