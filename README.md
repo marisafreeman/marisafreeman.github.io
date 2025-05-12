@@ -3,6 +3,7 @@
 常识学习目录  
 安全常识学习目录  
 sqllite快速入门  
+给我一个独立生活指南学习目录,我刚大学毕业马上就去洛杉矶寻找工作了,我在家里面生活都是靠保姆,自己完全没有独立生活能力
 https://learngitbranching.js.org  
 https://w3schools.com  
 https://freecodecamp.org  
