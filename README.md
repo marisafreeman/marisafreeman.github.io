@@ -165,6 +165,10 @@ matches:
     replace: |-
       请给我一个xxx的系统性学习目录
 
+  - trigger: "`9"
+    replace: |-
+      从创建项目开始,逐步教我这个项目的开发(采用快速原型开发)先搭建基本的骨架实现最基础的功能,我使用arch linux
+
   - trigger: "`1"
     replace: |-
       translate to Chinese：{{clipb}}
