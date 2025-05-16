@@ -178,7 +178,7 @@ matches:
   
   - trigger: "`2"
     replace: |-
-      听不懂,请用最简洁易懂的一段话描述.
+      听不懂,请用最简洁易懂的一句话详细讲解.
 
   - trigger: "`3"
     replace: |-
