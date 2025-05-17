@@ -169,6 +169,10 @@ matches:
     replace: |-
       从创建项目开始,逐步教我这个项目的开发(采用快速原型开发)先搭建基本的骨架实现最基础的功能,我使用arch linux
 
+  - trigger: "`8"
+    replace: |-
+      给每个xxx进行投入产出比评分,满分100,写成一个键值对.
+
   - trigger: "`1"
     replace: |-
       translate to Chinese：{{clipb}}
