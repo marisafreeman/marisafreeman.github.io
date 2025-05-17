@@ -124,6 +124,7 @@ sudo pacman -S prismlauncher    # https://github.com/PrismLauncher
 sudo pacman -S dust    # https://github.com/bootandy/dust
 sudo pacman -S bat    # https://github.com/sharkdp/bat
 sudo pacman -S flatpak    # https://flatpak.org
+yay -S vagrant    # https://github.com/hashicorp/vagrant
 yay -S optimus-manager-git    # https://github.com/Askannz/optimus-manager
 yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
 yay -S zen-browser-bin    # https://github.com/zen-browser
