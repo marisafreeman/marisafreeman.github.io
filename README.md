@@ -45,7 +45,12 @@ Finish: https://www.w3schools.com/css/default.asp
 Finish: (Fantasy Westward Journey Gold Farming Guide)https://item.taobao.com/item.htm?abbucket=14&detail_redpacket_pop=true&id=680103533549&ltk2=17462882459885f8vltb7aawh5b0kq905si&ns=1&priceTId=undefined&query=%E6%A2%A6%E5%B9%BB%E8%A5%BF%E6%B8%B8%E6%90%AC%E7%A0%96&spm=a21n57.1.hoverItem.5&utparam=%7B%22aplus_abtest%22%3A%228144c30a70d36282e3d4768bbbdc32c3%22%7D&xxc=taobaoSearch  
 Finish: (LeLeKeTang)https://pan.baidu.com/s/1Gltyjb9UaBmG7RWEhHupRw?pwd=6z4c
 
-# MyBookmarks
+# MyBookmarks  
+## Bookmarks Bar  
+https://github.com/marisafreeman/marisafreeman.github.io  
+file:///home/imak/Docker%20Deep%20Dive.pdf  
+https://aistudio.google.com  
+## Bookmarks Other  
 https://api.v3.cm  
 https://proxy.888005.xyz  
 https://proxy.incolumitas.com/proxy_detect.html  
