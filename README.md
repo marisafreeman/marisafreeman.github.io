@@ -192,7 +192,7 @@ matches:
 
   - trigger: "`3"
     replace: |-
-      请用一句话描述.
+      听不懂,请用一句话描述.
 
   - trigger: "`4"
     replace: |-
@@ -206,12 +206,6 @@ matches:
     replace: |-
       这里的关键词的英文全称是什么？它的中文翻译是什么？
 
-  - trigger: "`q"
-    replace: |-
-      translate to English：{{clipb}}
-    vars:
-      - name: "clipb"
-        type: "clipboard"
 ```
 
 ```java
