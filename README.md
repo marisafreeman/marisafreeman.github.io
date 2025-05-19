@@ -172,28 +172,20 @@ matches:
     replace: |-
       请给我一个xxx的系统性学习目录
 
-  - trigger: "`9"
-    replace: |-
-      从创建项目开始,逐步教我这个项目的开发(采用快速原型开发)先搭建基本的骨架实现最基础的功能,我使用arch linux
-
-  - trigger: "`8"
-    replace: |-
-      给每个xxx进行投入产出比评分,满分100,写成一个键值对.
-
-  - trigger: "`m"
+  - trigger: "`1"
     replace: |-
       translate to Chinese：{{clipb}}
     vars:
       - name: "clipb"
         type: "clipboard"
-  
+
   - trigger: "`2"
     replace: |-
-      听不懂,请用最简单通俗易懂的一句话详细讲解.
+      听不懂,请用一句话描述.
 
   - trigger: "`3"
     replace: |-
-      听不懂,请用一句话描述.
+      听不懂,请用最简单通俗易懂的一句话详细讲解.
 
   - trigger: "`4"
     replace: |-
@@ -207,6 +199,13 @@ matches:
     replace: |-
       这英文单词是什么意思?为什么要这么取名,翻译成中文是什么?
 
+  - trigger: "`7"
+    replace: |-
+      给每个xxx进行投入产出比评分,满分100,写成一个键值对.
+
+  - trigger: "`8"
+    replace: |-
+      从创建项目开始,逐步教我这个项目的开发(采用快速原型开发)先搭建基本的骨架实现最基础的功能,我使用arch linux
 ```
 
 ```java
