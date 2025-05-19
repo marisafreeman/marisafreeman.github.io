@@ -179,7 +179,7 @@ matches:
     replace: |-
       给每个xxx进行投入产出比评分,满分100,写成一个键值对.
 
-  - trigger: "`1"
+  - trigger: "`m"
     replace: |-
       translate to Chinese：{{clipb}}
     vars:
