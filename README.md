@@ -51,6 +51,7 @@ https://github.com/marisafreeman/marisafreeman.github.io
 file:///home/imak/Docker%20Deep%20Dive.pdf  
 https://aistudio.google.com  
 ## Bookmarks Other  
+https://www.befunky.com/create
 https://api.v3.cm  
 https://proxy.888005.xyz  
 https://proxy.incolumitas.com/proxy_detect.html  
