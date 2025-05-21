@@ -83,7 +83,6 @@ https://github.com/openwrt
 https://github.com/massgravel/Microsoft-Activation-Scripts  
 https://github.com/zyddnys/manga-image-translator  
 https://github.com/atuinsh/atuin  
-https://github.com/philc/vimium    https://addons.mozilla.org/firefox/addon/vimium-ff  
 https://github.com/darkreader    https://addons.mozilla.org/firefox/addon/darkreader  
 https://github.com/AutomaApp    https://addons.mozilla.org/firefox/addon/automa  
 https://github.com/violentmonkey    https://addons.mozilla.org/firefox/addon/violentmonkey  
