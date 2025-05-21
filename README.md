@@ -51,7 +51,7 @@ https://github.com/marisafreeman/marisafreeman.github.io
 file:///home/imak/Docker%20Deep%20Dive.pdf  
 https://aistudio.google.com  
 ## Bookmarks Other  
-https://www.befunky.com/create
+https://www.befunky.com/create  
 https://api.v3.cm  
 https://proxy.888005.xyz  
 https://proxy.incolumitas.com/proxy_detect.html  
@@ -114,7 +114,6 @@ sudo pacman -S ghostty    # https://github.com/ghostty-org/ghostty
 sudo pacman -S python-pip    # https://pip.pypa.io
 sudo pacman -S 7zip    # https://www.7-zip.org
 sudo pacman -S wireshark-cli    # https://wireshark.org
-sudo pacman -S krita    # https://krita.org
 sudo pacman -S github-cli    # https://github.com/cli
 sudo pacman -S mpv    # https://github.com/mpv-player
 sudo pacman -S tmux    # https://github.com/tmux
