@@ -137,7 +137,6 @@ yay -S neovim-nightly-bin    # https://github.com/neovim/neovim
 yay -S zen-browser-bin    # https://github.com/zen-browser
 yay -S Ventoy-bin    # https://github.com/ventoy
 yay -S rustdesk-bin    # https://github.com/rustdesk
-yay -S ab-download-manager-git    # https://github.com/amir1376/ab-download-manager
 ```
 
 ```bash
