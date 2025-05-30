@@ -110,6 +110,7 @@ sudo pacman -S lib32-nvidia-utils nvidia-utils    # http://www.nvidia.com
 sudo pacman -S nvidia-settings    # https://github.com/NVIDIA/nvidia-settings
 sudo pacman -S lib32-mesa-utils    # http://mesa3d.sourceforge.net
 sudo pacman -S mesa-utils    # https://www.mesa3d.org
+sudo pacman -Syu ntfs-3g    # https://www.tuxera.com/community/open-source-ntfs-3g
 sudo pacman -S ghostty    # https://github.com/ghostty-org/ghostty
 sudo pacman -S python-pip    # https://pip.pypa.io
 sudo pacman -S 7zip    # https://www.7-zip.org
