@@ -47,6 +47,7 @@ Finish: (LeLeKeTang)https://pan.baidu.com/s/1Gltyjb9UaBmG7RWEhHupRw?pwd=6z4c
 
 # MyBookmarks  
 ## Bookmarks Bar  
+https://asoftmurmur.com  
 https://github.com/marisafreeman/marisafreeman.github.io  
 file:///home/imak/Docker%20Deep%20Dive.pdf  
 https://aistudio.google.com  
