@@ -179,7 +179,7 @@ matches:
 
   - trigger: "`2"
     replace: |-
-      请举例一个最最最简单的运用就像python只print helloworld那样,或者计算器按1+1=那样
+      请举例一个最最最简单的运用(简单的程度就像python打印helloworld,天文学中第一次通过望远镜清晰地看到月球的环形山或土星环,嵌入式点亮一个LED灯,计算器按1+1=,烹饪成功煮熟一个鸡蛋那样简单的运用).
 
   - trigger: "`3"
     replace: |-
