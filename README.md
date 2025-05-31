@@ -179,7 +179,7 @@ matches:
 
   - trigger: "`2"
     replace: |-
-      听不懂,请用一句话描述.
+      没懂,请换成一句话.
 
   - trigger: "`3"
     replace: |-
