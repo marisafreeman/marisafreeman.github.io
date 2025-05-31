@@ -175,10 +175,7 @@ matches:
 
   - trigger: "`1"
     replace: |-
-      translate to Chinese：{{clipb}}
-    vars:
-      - name: "clipb"
-        type: "clipboard"
+      文中术语进行标准解释后举个简单的帮助我理解的现实生活中的例子(请简短一点每个标准解释和简单的例子分别不超过一句话,并且你只用解释你认为需要解释的术语)
 
   - trigger: "`2"
     replace: |-
@@ -186,7 +183,10 @@ matches:
 
   - trigger: "`3"
     replace: |-
-      文中术语进行标准解释后举个简单的帮助我理解的现实生活中的例子(请简短一点每个标准解释和简单的例子分别不超过一句话,并且你只用解释你认为需要解释的术语)
+      translate to Chinese：{{clipb}}
+    vars:
+      - name: "clipb"
+        type: "clipboard"
 
   - trigger: "`4"
     replace: |-
