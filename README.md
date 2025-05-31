@@ -179,18 +179,18 @@ matches:
 
   - trigger: "`2"
     replace: |-
-      没懂,请换成一句话.
+      请举例一个最最最简单的运用就像python只print helloworld那样,或者计算器按1+1=那样
 
   - trigger: "`3"
+    replace: |-
+      没懂,请换成一句话.
+
+  - trigger: "`4"
     replace: |-
       translate to Chinese：{{clipb}}
     vars:
       - name: "clipb"
         type: "clipboard"
-
-  - trigger: "`4"
-    replace: |-
-      请用最简单的示例代码举例.
 
   - trigger: "`5"
     replace: |-
@@ -207,10 +207,6 @@ matches:
   - trigger: "`8"
     replace: |-
       从创建项目开始,逐步教我这个项目的开发(采用快速原型开发)先搭建基本的骨架实现最基础的功能,我使用arch linux.
-
-  - trigger: "`9"
-    replace: |-
-      听不懂,请用最简单通俗易懂的一句话详细讲解.
 ```
 
 ```java
